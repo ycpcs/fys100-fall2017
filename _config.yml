@@ -1,0 +1,8 @@
+baseurl: "//ycpcs.github.io/fys100-fall2017"
+markdown: kramdown
+highlighter: rouge
+coursename: "FYS 100.132"
+
+kramdown:
+    input: GFM
+    hard_wrap: false

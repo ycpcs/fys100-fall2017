@@ -100,7 +100,9 @@ html {
 
 html, body {
 	margin: 0px 0px;
-	background: #b0a1ba;
+	/*background: #b0a1ba;*/
+	/*background: #4561c7;*/
+	background: #354B99;
 }
 
 h1, h2, h3 {
@@ -174,8 +176,8 @@ dt {
 }
 
 .parimg {
-	float: left;
-	margin-right: 32px;
+	float: right;
+	margin-left: 32px;
 }
 
 .clear {
@@ -189,52 +191,33 @@ dt {
 .topic-sc, .topic-art, .topic-mus, .topic-hum, .topic-sci, .topic-phy {
 	width: 2em;
 	display: inline-block;
+	text-align: center;
 }
 
 .topic-sc {
 	background: yellow;
 }
 
-.topic-sc::before {
-	content: "\0000a0";
-}
-
 .topic-art {
 	background: #4169E1;
-}
-
-.topic-art::before {
-	content: "\0000a0";
+	color: white;
 }
 
 .topic-mus {
 	background: #deb887;
 }
 
-.topic-mus::before {
-	content: "\0000a0";
-}
-
 .topic-hum {
 	background: #008080;
-}
-
-.topic-hum::before {
-	content: "\0000a0";
+	color: white;
 }
 
 .topic-sci {
 	background: #cc0033;
-}
-
-.topic-sci::before {
-	content: "\0000a0";
+	color: white;
 }
 
 .topic-phy {
 	background: #9900cc;
-}
-
-.topic-phy::before {
-	content: "\0000a0";
+	color: white;
 }

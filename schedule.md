@@ -40,22 +40,22 @@ Oct 5 | <span class="topic-mus">MU</span> | [Lab 7: Sample playback](labs/lab07.
 Oct 10 | <span class="topic-mus">MU</span> | Computers and music discussion
 Oct 12 | | Team project design concept presentations
 Oct 17 | | Fall vacation, no class
-Oct 19 |
-Oct 24 |
-Oct 26 |
-Oct 31 |
-Nov 2 |
-Nov 7 |
-Nov 9 |
-Nov 14 |
-Nov 16 |
-Nov 21 |
+Oct 19 | <span class="topic-sc">SC</span> | Ready, set, registration! |
+Oct 24 | <span class="topic-hum">DH</span> | N-grams
+Oct 26 | <span class="topic-sci">SC</span> | Outbreak
+Oct 31 | <span class="topic-phy">PH</span>
+Nov 2 | <span class="topic-phy">PH</span>
+Nov 7 | <span class="topic-phy">PH</span>
+Nov 9 | <span class="topic-phy">PH</span>
+Nov 14 | <span class="topic-phy">PH</span>
+Nov 16 | <span class="topic-phy">PH</span>
+Nov 21 | <span class="topic-phy">PH</span>
 Nov 23 | | Thanksgiving vacation, no class
-Nov 28 | 
-Nov 30 |
-Dec 5 |
-Dec 7 |
-Dec 12 |
+Nov 28 |  <span class="topic-phy">PH</span>
+Nov 30 | <span class="topic-phy">PH</span>
+Dec 5 | <span class="topic-phy">PH</span>
+Dec 7 | <span class="topic-phy">PH</span>
+Dec 12 | <span class="topic-phy">PH</span>
 
 Readings/Videos/Media:
 

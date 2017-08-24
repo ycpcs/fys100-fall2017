@@ -27,22 +27,23 @@ Topic codes:
 Date | Topic | Activity | Agenda | Due | Reading
 ---- | ----- | -------- | ------ | --- | -------
 Aug 29 | <span class="topic-sc">SC</span> | First day | [Day 1](agenda/day01.html) | [Assignment 0](assign/assign00.html) | &mdash;
-Sep 5 | <span class="topic-sc">SC</span> | Discussion: expectations for college<br>Team project intro | [Day 2](agenda/day02.html) | &mdash; | [NYTEd30Jul15](http://www.nytimes.com/2015/08/02/education/edlife/advice-for-new-students-from-those-who-know-old-students.html), [Lahey15](http://www.theatlantic.com/education/archive/2015/08/when-success-leads-to-failure/400925/)
-Sep 7 | <span class="topic-art">VA</span> | [Lab 1: Drawing with Processing](labs/lab01.html)
-Sep 12 | <span class="topic-art">VA</span> | [Lab 2: Repetition](labs/lab02.html)
+Aug 31 | <span class="topic-sc">SC</span> | Discussion: expectations for college<br>Team project intro | [Day 2](agenda/day02.html) | &mdash; | [NYTEd30Jul15](http://www.nytimes.com/2015/08/02/education/edlife/advice-for-new-students-from-those-who-know-old-students.html), [Lahey15](http://www.theatlantic.com/education/archive/2015/08/when-success-leads-to-failure/400925/) 
+Sep 5 | <span class="topic-art">VA</span> | [Lab 1: Drawing with Processing](labs/lab01.html)
+Sep 7 | <span class="topic-art">VA</span> | [Lab 2: Repetition](labs/lab02.html)
+Sep 12 | <span class="topic-art">VA</span> | [Lab 3: Animation](labs/lab03.html)
 Sep 14 | <span class="topic-sc">SC</span> | Being an engaged learner<br><b>Important</b>: class meets in Weinstock Lecture Hall, Willman Business Center
-Sep 19 | <span class="topic-art">VA</span> | [Lab 3: Animation](labs/lab03.html)
-Sep 21 | <span class="topic-art">VA</span> | [Lab 4: Generative Art](labs/lab04.html)
-Sep 26 | <span class="topic-art">VA</span> | Computers and art discussion
-Sep 28 | <span class="topic-mus">MU</span> | [Lab 5: Drum and bass](labs/lab05.html)
-Oct 3 | <span class="topic-mus">MU</span> | [Lab 6: Melodies](labs/lab06.html)
-Oct 5 | <span class="topic-mus">MU</span> | [Lab 7: Sample playback](labs/lab07.html)
-Oct 10 | <span class="topic-mus">MU</span> | Computers and music discussion
+Sep 19 | <span class="topic-art">VA</span> | [Lab 4: Generative Art](labs/lab04.html)
+Sep 21 | <span class="topic-art">VA</span> | Computers and art discussion
+Sep 26 | <span class="topic-mus">MU</span> | [Lab 5: Drum and bass](labs/lab05.html)
+Sep 28 | <span class="topic-mus">MU</span> | [Lab 6: Melodies](labs/lab06.html)
+Oct 3 | <span class="topic-mus">MU</span> | [Lab 7: Sample playback](labs/lab07.html)
+Oct 5 | <span class="topic-mus">MU</span> | Computers and music discussion
+Oct 10 | <span class="topic-hum">DH</span> | N-grams
 Oct 12 | | Team project design concept presentations
 Oct 17 | | Fall vacation, no class
 Oct 19 | <span class="topic-sc">SC</span> | Ready, set, registration! |
-Oct 24 | <span class="topic-hum">DH</span> | N-grams
-Oct 26 | <span class="topic-sci">SC</span> | Outbreak
+Oct 24 |  <span class="topic-sci">SC</span> | Outbreak
+Oct 26 | <span class="topic-phy">PH</span>
 Oct 31 | <span class="topic-phy">PH</span>
 Nov 2 | <span class="topic-phy">PH</span>
 Nov 7 | <span class="topic-phy">PH</span>

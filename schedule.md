@@ -30,7 +30,7 @@ Aug 29 | <span class="topic-sc">SC</span> | First day | [Day 1](agenda/day01.htm
 Aug 31 | <span class="topic-sc">SC</span> | Discussion: expectations for college<br>Team project intro | [Day 2](agenda/day02.html) | &mdash; | [NYTEd30Jul15](http://www.nytimes.com/2015/08/02/education/edlife/advice-for-new-students-from-those-who-know-old-students.html), [Lahey15](http://www.theatlantic.com/education/archive/2015/08/when-success-leads-to-failure/400925/) 
 Sep 5 | <span class="topic-art">VA</span> | [Lab 1: Drawing with Processing](labs/lab01.html) | [Day 3](agenda/day03.html) | &mdash; | Start [Noll76](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5217127)<br>LP, Chapters 1&ndash;2
 Sep 7 | <span class="topic-art">VA</span> | [Lab 2: Repetition](labs/lab02.html) | [Day 4](agenda/day04.html) | &mdash; | &mdash;
-Sep 12 | <span class="topic-art">VA</span> | [Lab 3: Animation](labs/lab03.html) | [Day 5](agenda/day05.html) | &mdash; | &mdash;
+Sep 12 | <span class="topic-art">VA</span> | [Lab 3: Animation](labs/lab03.html) | [Day 5](agenda/day05.html) | [A2 (project proposal)](assign/assign02.html) | &mdash;
 Sep 14 | <span class="topic-sc">SC</span> | Being an engaged learner<br><b>Important</b>: class meets in Weinstock Lecture Hall, Willman Business Center | [Day 6](agenda/day06.html) | &mdash; | &mdash;
 Sep 19 | <span class="topic-art">VA</span> | [Lab 4: Generative Art](labs/lab04.html) | [Day 7](agenda/day07.html) | &mdash; | LP, Chapters 3&ndash;4<br>[ShiffmanNOCCh8](http://natureofcode.com/book/chapter-8-fractals/)
 Sep 21 | <span class="topic-art">VA</span> | Computers and art discussion | [Day 8](agenda/day08.html) | &mdash; | [Noll76](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5217127)

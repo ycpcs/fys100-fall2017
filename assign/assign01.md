@@ -27,4 +27,4 @@ Each entry should be both **concise** and **substantial**.
 
 # Grading
 
-Each Wednesday, we will read your journal entries for the previous week, and mark your work as ✓ (satisfactorily completed) or ✗ (incomplete or unsatisfactory).  We may also add some comments and/or suggestions.
+Each week, we will read your journal entries for the previous week, and mark your work as ✓ (satisfactorily completed) or ✗ (incomplete or unsatisfactory).  We may also add some comments and/or suggestions.

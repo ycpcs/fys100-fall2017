@@ -1,12 +1,11 @@
 ---
 layout: default
-title: "Day 18 agenda"
+title: "Day 19 agenda"
 ---
 
 # Agenda
 
-Download  [Physical Computing Archive](../labs/PhysicalComputing.zip).
-
+Coming soon!
 
 ## Get ready
 

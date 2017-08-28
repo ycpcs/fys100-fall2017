@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Day 19 agenda"
+title: "Day 20 agenda"
 ---
 
 # Agenda
 
-Coming soon!
+Download  [Connecting Physical Sensors](../labs/ConnectingSensors.pdf).
 
 ## Get ready
 

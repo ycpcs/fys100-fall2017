@@ -33,7 +33,7 @@ This (example) installation will be mounted in a box attached to the wall.  The 
 
 ## Available sensors
 
-TODO: description of sensors available
+TODO: description of sensors available (link to friendly datasheets)
 
 # Requirements
 

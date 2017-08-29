@@ -35,7 +35,6 @@ This (example) installation will be mounted in a box attached to the wall.  The 
 
 Sensor | Type 
 ---------- | ---- 
-[Accelerometer](resource/datasheet/Accelerometer.pdf) | Used to determine motion.
 
 
 # Requirements

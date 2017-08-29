@@ -33,7 +33,10 @@ This (example) installation will be mounted in a box attached to the wall.  The 
 
 ## Available sensors
 
-TODO: description of sensors available (link to friendly datasheets)
+Sensor | Type 
+---------- | ---- 
+[Accelerometer](resource/datasheet/Accelerometer.pdf) | Used to determine motion.
+
 
 # Requirements
 

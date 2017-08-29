@@ -33,11 +33,11 @@ Sep 7 | <span class="topic-art">VA</span> | [Lab 2: Repetition](labs/lab02.html)
 Sep 12 | <span class="topic-art">VA</span> | [Lab 3: Animation](labs/lab03.html) | [Day 5](agenda/day05.html) | [A2 (project proposal)](assign/assign02.html) | &mdash;
 Sep 14 | <span class="topic-sc">SC</span> | Being an engaged learner<br><b>Important</b>: class meets in Weinstock Lecture Hall, Willman Business Center | [Day 6](agenda/day06.html) | &mdash; | &mdash;
 Sep 19 | <span class="topic-art">VA</span> | [Lab 4: Generative Art](labs/lab04.html) | [Day 7](agenda/day07.html) | &mdash; | LP, Chapters 3&ndash;4<br>[ShiffmanNOCCh8](http://natureofcode.com/book/chapter-8-fractals/)
-Sep 21 | <span class="topic-art">VA</span> | Computers and art discussion | [Day 8](agenda/day08.html) | &mdash; | [Noll76](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5217127)
+Sep 21 | <span class="topic-art">VA</span> | Computers and art discussion<br>On-Campus Resources (mini-lesson) | [Day 8](agenda/day08.html) | &mdash; | [Noll76](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5217127)
 Sep 26 | <span class="topic-mus">MU</span> | [Lab 5: Drum and bass](labs/lab05.html) | [Day 9](agenda/day09.html) | &mdash; | Start [IAMUSDocumentary](https://www.youtube.com/watch?v=ETGDbWvWCbM), [Guardian1Jul12](http://www.theguardian.com/music/2012/jul/01/iamus-computer-composes-classical-music), and [0musicPlaylist](https://www.youtube.com/watch?v=SxvV5zn7e9s)
 Sep 28 | <span class="topic-mus">MU</span> | [Lab 6: Melodies](labs/lab06.html) | [Day 10](agenda/day10.html) | &mdash; | &mdash;
 Oct 3 | <span class="topic-mus">MU</span> | [Lab 7: Sample playback](labs/lab07.html) | [Day 11](agenda/day11.html) | &mdash; | &mdash;
-Oct 5 | <span class="topic-mus">MU</span> | Computers and music discussion | [Day 12](agenda/day12.html) | &mdash; | [IAMUSDocumentary](https://www.youtube.com/watch?v=ETGDbWvWCbM), [Guardian1Jul12](http://www.theguardian.com/music/2012/jul/01/iamus-computer-composes-classical-music), and [0musicPlaylist](https://www.youtube.com/playlist?list=PLwUOBZdCYUCMjW1DKCQxqVJp3xmoh42e2)
+Oct 5 | <span class="topic-mus">MU</span> | Computers and music discussion<br>Organization (mini-lesson) | [Day 12](agenda/day12.html) | &mdash; | [IAMUSDocumentary](https://www.youtube.com/watch?v=ETGDbWvWCbM), [Guardian1Jul12](http://www.theguardian.com/music/2012/jul/01/iamus-computer-composes-classical-music), and [0musicPlaylist](https://www.youtube.com/playlist?list=PLwUOBZdCYUCMjW1DKCQxqVJp3xmoh42e2)
 Oct 10 | <span class="topic-hum">DH</span> | N-grams
 Oct 12 | | Team project design concept presentations
 Oct 17 | | Fall vacation, no class

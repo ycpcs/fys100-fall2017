@@ -31,7 +31,7 @@ Here is a sketch of an example installation (click for full size):
 
 This (example) installation will be mounted in a box attached to the wall.  The theme of the installation is water.  The touchscreen displays a simulated water animation, and the speakers play the sound of running water.  The range sensor detects when a person approaches the installation, and when someone approaches the sound volume increases, and blue LEDs start pulsing with an intensity proportional to the user's proximity.  When the user touches the touchscreen, a ripple animation is displayed centered on the point where the user touched, and a "plunk" sound plays.
 
-## Available sensors
+## Available sensors and actuators
 
 This section lists some of the possible sensors and actuators you can use in your project.  Note that this list is by no means exhaustive: you can look at the [Adafruit](https://www.adafruit.com) and [SparkFun](https://www.sparkfun.com) websites for more ideas.
 

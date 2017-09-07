@@ -19,6 +19,7 @@ Welcome to the FYS 100.132 home page!  All of the information about the course w
 
 ## News
 
+* **Sep 7** &mdash; The due date for [Assignment 2](assign/assign02.html) (the team project proposal) has been changed to **Tuesday, Sept 19**.
 * **Aug 29** &mdash; Welcome back!  [Assignment 0](assign/assign00.html) is due by the end of day today. (Don't worry, it's short!)
 
 <!-- vim:set wrap: ­-->

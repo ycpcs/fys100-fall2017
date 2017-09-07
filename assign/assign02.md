@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 2: Team project proposal"
 ---
 
-**Due**: Tuesday, Sept 12th by 11:59 PM
+**Due**: Tuesday, Sept 19th by 11:59 PM
 
 In this assignment you will propose an idea for a team project.  First, read the **Concept** section, which describes the concept for the team project.  Next, read the **Requirements** section, which describes the requirements for the team project.  Finally, read the **Deliverable** section, which explains what information you should include in your team's proposal.
 

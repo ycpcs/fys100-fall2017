@@ -13,9 +13,9 @@ title: "Lab 3: Animation"
 
 Download the following zip file and save it in your **Downloads** folder: [Animation.zip](Animation.zip).
 
-Start a file browser window and navigate to your **Downloads** folder.  Right click on **Animation.zip**.  Choose **Extract All**, then choose `H:/My Documents/Processing` as the destination directory.
+Start a file browser window and navigate to your **Downloads** folder.  Right click on **Animation.zip**.  Choose **Extract All**, then choose `H:\My Documents\Processing` as the destination directory.
 
-In Processing, choose **File &rarr; Open**.  In the file chooser dialog, navigate to the `H:/My Documents/Processing` folder, then double click on **Animation**, then choose **Animation.pde**.  You should now have a Processing window with the source code of the example sketch.
+In Processing, choose **File &rarr; Open**.  In the file chooser dialog, navigate to the `H:\My Documents\Processing` folder, then double click on **Animation**, then choose **Animation.pde**.  You should now have a Processing window with the source code of the example sketch.
 
 Click the run button, which looks like this:
 

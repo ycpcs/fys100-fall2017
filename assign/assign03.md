@@ -92,7 +92,7 @@ The program is worth up to 40 points, and the essay outline, draft, and final ve
 
 For the program:
 
-* A basic composition (with a small number of visual elements, but with at least one repeated element implemented using a method) will earn up to 28 points
+* A basic composition (with a small number of visual elements, but with at least one repeated element implemented using a function) will earn up to 28 points
 * A more complex composition (with a larger number of visual elements, and also with at least one repeated element implemented using a function) will earn up to 32 points
 * Up to 8 points may be earned through the use of optional features (repeated elements using a loop, generative elements, and/or animated elements)
 

@@ -78,7 +78,7 @@ The second version of the essay will be a draft, saved in a document called `Ess
 
 The final version of the essay should be saved in a document called `EssayFinal`.  Make sure you take into account any feedback we give you on the draft.
 
-Your essay should be *at least* two pages in length.  (Two pages is a minimuim, and I would expect that it is more likely that three or more pages will be necessary.)  You should strive to be clear and concise.
+Your essay should be *at least* two pages in length.  (Two pages is a minimum, and I would expect that it is more likely that three or more pages will be necessary.)  You should strive to be clear and concise.
 
 *Proofread your reflection carefully*.  We will make comments on the draft (so you can use the feedback for your final version), but it is your responsibility to check your work carefully for spelling and grammar errors.
 

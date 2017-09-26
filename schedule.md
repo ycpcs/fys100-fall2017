@@ -43,20 +43,20 @@ Oct 12 | | Team project design concept presentations
 Oct 17 | | Fall vacation, no class
 Oct 19 | <span class="topic-sc">SC</span> | Ready, set, registration! |
 Oct 24 |  <span class="topic-sci">SC</span> | Outbreak
-Oct 26 | <span class="topic-phy">PH</span>
-Oct 31 | <span class="topic-phy">PH</span>
-Nov 2 | <span class="topic-phy">PH</span>
-Nov 7 | <span class="topic-phy">PH</span>
-Nov 9 | <span class="topic-phy">PH</span>
-Nov 14 | <span class="topic-phy">PH</span>
-Nov 16 | <span class="topic-phy">PH</span>
-Nov 21 | <span class="topic-phy">PH</span>
+Oct 26 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 1 |
+Oct 31 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 2 |
+Nov 2 | <span class="topic-phy">PH</span> | Team Building - Rube Goldberg Device |
+Nov 7 | <span class="topic-phy">PH</span> | Prototypes: Play Date and Exploration with Scratch |
+Nov 9 | <span class="topic-phy">PH</span> | Connecting Arduino and Processing |
+Nov 14 | <span class="topic-phy">PH</span> | Prototypes and Fabrication |
+Nov 16 | <span class="topic-phy">PH</span> | Work on Installation |
+Nov 21 | <span class="topic-phy">PH</span> | Computing Machines that Are Finite |
 Nov 23 | | Thanksgiving vacation, no class
-Nov 28 |  <span class="topic-phy">PH</span>
-Nov 30 | <span class="topic-phy">PH</span>
-Dec 5 | <span class="topic-phy">PH</span>
-Dec 7 | <span class="topic-phy">PH</span>
-Dec 12 | <span class="topic-phy">PH</span>
+Nov 28 |  <span class="topic-phy">PH</span> | Work on Installation |
+Nov 30 | <span class="topic-phy">PH</span> | Work on Installation |
+Dec 5 | <span class="topic-phy">PH</span> | Work on Installation |
+Dec 7 | <span class="topic-phy">PH</span> | Work on Installation |
+Dec 12 | <span class="topic-phy">PH</span> | Final Presentation and Demos
 
 Readings/Videos/Media:
 

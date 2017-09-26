@@ -19,6 +19,7 @@ Welcome to the FYS 100.132 home page!  All of the information about the course w
 
 ## News
 
+* **Sep 26** &mdash; As mentioned in class, the due date for the [Assignment 3](assign/assign03.html) final essay and code has been moved back to **Tuesday, Oct 5**.
 * **Sep 14** &mdash; Due to an inconsistency in how the due date for the [Assignment 3](assign/assign03.html) essay outline was stated, the due date has been moved back one day to **Friday, Sept 15**.
 * **Sep 8** &mdash; [Assignment 3](assign/assign03.html) has been posted.  The first deliverable, an essay outline, is due **Thursday, Sept 14**.
 * **Sep 7** &mdash; The due date for [Assignment 2](assign/assign02.html) (the team project proposal) has been changed to **Tuesday, Sept 19**.

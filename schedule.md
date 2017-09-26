@@ -21,7 +21,7 @@ Topic codes:
 * <span class="topic-art">VA</span> Visual art
 * <span class="topic-mus">MU</span> Music
 * <span class="topic-hum">DH</span> Digital humanities
-* <span class="topic-sci">SC</span> Science
+* <span class="topic-sci">PS</span> Science
 * <span class="topic-phy">PH</span> Physical computing
 
 Date | Topic | Activity | Agenda | Due | Reading
@@ -38,12 +38,12 @@ Sep 26 | <span class="topic-mus">MU</span> | [Lab 5: Drum and bass](labs/lab05.h
 Sep 28 | <span class="topic-mus">MU</span> | [Lab 6: Melodies](labs/lab06.html) | [Day 10](agenda/day10.html) | &mdash; | &mdash;
 Oct 3 | <span class="topic-mus">MU</span> | [Lab 7: Sample playback](labs/lab07.html) | [Day 11](agenda/day11.html) | &mdash; | &mdash;
 Oct 5 | <span class="topic-mus">MU</span> | Computers and music discussion<br>Organization (mini-lesson) | [Day 12](agenda/day12.html) | [A3 essay, code](assign/assign03.html) | [IAMUSDocumentary](https://www.youtube.com/watch?v=ETGDbWvWCbM), [Guardian1Jul12](http://www.theguardian.com/music/2012/jul/01/iamus-computer-composes-classical-music), and [0musicPlaylist](https://www.youtube.com/playlist?list=PLwUOBZdCYUCMjW1DKCQxqVJp3xmoh42e2)
-Oct 10 | <span class="topic-hum">DH</span> | N-grams
-Oct 12 | | Team project design concept presentations
+Oct 10 | <span class="topic-hum">DH</span> | N-grams | &mdash; | [A4 draft](assign/assign04.html) | &mdash;
+Oct 12 | | Team project design concept presentations | &mdash; | &mdash; | &mdash;
 Oct 17 | | Fall vacation, no class
 Oct 19 | <span class="topic-sc">SC</span> | Ready, set, registration! |
-Oct 24 |  <span class="topic-sci">SC</span> | Outbreak
-Oct 26 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 1 |
+Oct 24 |  <span class="topic-sci">PS</span> | Outbreak | &mdash; | [A4 essay, code](assign/assign04.html) | &mdash;
+Oct 26 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 1 | |  
 Oct 31 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 2 |
 Nov 2 | <span class="topic-phy">PH</span> | Team Building - Rube Goldberg Device |
 Nov 7 | <span class="topic-phy">PH</span> | Prototypes: Play Date and Exploration with Scratch |

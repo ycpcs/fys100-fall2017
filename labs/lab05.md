@@ -2,6 +2,7 @@
 layout: default
 title: "Lab 5: Drum and bass"
 ---
+[comment]: <Possibly remove the melody section from here since it is covered in Lab 6. Possibly it is too much for one day>
 
 # Learning goals
 

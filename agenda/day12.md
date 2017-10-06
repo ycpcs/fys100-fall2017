@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Day 13 agenda"
+title: "Day 12 agenda"
 ---
 
 # Agenda
@@ -22,8 +22,6 @@ As you read/watch/listen, think about the discussion questions below.
 <img class="parimg" alt="Get ready" src="img/getready.png">
 
 Create a Google doc called **Music Discussion Questions** in your shared folder containing your responses to the following dicussion questions.
-
-<div class="clear"></div>
 
 Regarding the Guardian article:
 

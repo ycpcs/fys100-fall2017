@@ -7,11 +7,26 @@ import java.util.function.Predicate;
 // Simulation parameters
 /////////////////////////////////////////////////////////////////////////////
 
-final int WIDTH = 600;
-final int HEIGHT = 600;
+// distance to move when trying to escape from sick persons
+final float ESCAPE_MOVE_DIST = 5.0;
+
+// distance that sick person (zombie) can move
+final float ZOMBIE_MOVE_DIST = 3.5;
+
+// Radius within which a sick person could infect a healthy person
+final float INFECT_RADIUS = 10.0;
+
+// Probability of being infected by a sick person within INFECT_RADIUS
+final float INFECT = 0.80;
+
+// probability that a sick person recovers
+final float RECOVERY = 0;
+
+final int WIDTH = 480;//600;
+final int HEIGHT = 480;//600;
 final int NUM_PERSONS = 1000;
 
-// persons should be at least this far apart from each other
+// persons try to be at least this far apart from each other
 final float MAXCROWD = 2.0;
 
 // if any sick persons are within this radius,
@@ -21,37 +36,34 @@ final float PARANOIA = 160.0;
 // normal move distance (when not trying to escape from sick persons)
 final float NORMAL_MOVE_DIST = 3.0;
 
-// distance to move when trying to escape from sick persons
-final float ESCAPE_MOVE_DIST = 10.0;
-
-// distance that sick person (zombie) can move
-final float ZOMBIE_MOVE_DIST = 1.5;
-
 // generate this many random moves when deciding how a person
-// should move (normally or to escape disease)
-final int NUM_MOVES = 10;
+// should move (normally, to escape disease, or to pursue normals)
+final int NUM_MOVES = 6;
 
 // probability that a person is sick initially
 final float INIT_SICK = 0.01;
 
-// probability that a sick person recovers
-final float RECOVERY = 0.01;
-
 // Probability that a healthy person becomes sick spontaneously
-final float SPONTANEOUS_INFECT = 0.00001;
-
-// Radius within which a sick person could infect a healthy person
-final float INFECT_RADIUS = 20.0;
-
-// Probability of being infected by a sick person within INFECT_RADIUS
-final float INFECT = 0.20;
+final float SPONTANEOUS_INFECT = 0; // 0.00001;
 
 // Radius within which zombie will pursue victim
-final float AGRESSION_RADIUS = 160;
+final float AGRESSION_RADIUS = 300;
 
 /////////////////////////////////////////////////////////////////////////////
 // Implementation
 /////////////////////////////////////////////////////////////////////////////
+
+// Precomputed sine and cosine values for angles describing 360
+// degree rotation by 1 degree increments.
+float[] SIN = new float[360];
+float[] COS = new float[360];
+{
+  for (int i = 0; i < 360; i++) {
+    float theta = (2*(float)Math.PI) * (i / 360.0);
+    SIN[i] = sin(theta);
+    COS[i] = cos(theta);
+  }
+}
 
 boolean paused = false;
 
@@ -66,6 +78,13 @@ class Person {
   void moveTo(Point where) {
     x = where.x;
     y = where.y;
+  }
+  Person dup() {
+    Person copy = new Person();
+    copy.x = x;
+    copy.y = y;
+    copy.sick = sick;
+    return copy;
   }
 }
 
@@ -200,12 +219,52 @@ class MinDistanceFromHealthyPerson implements Function<Point,Float> {
   }
 }
 
+class Work {
+  int start, end;
+}
+
+java.util.concurrent.LinkedBlockingQueue<Work> workQ =
+  new java.util.concurrent.LinkedBlockingQueue<Work>();
+java.util.concurrent.LinkedBlockingQueue<Work> doneQ =
+  new java.util.concurrent.LinkedBlockingQueue<Work>();
+
+class Worker implements Runnable {
+  public void run() {
+    try {
+      while (true) {
+        Work work = workQ.take();
+        if (work.start < 0) { return; }
+        //System.out.printf("Simulating %d..%d\n", work.start, work.end);
+        for (int i = work.start; i < work.end; i++) {
+          Person p;
+          if (persons[i].sick) {
+            p = simulateZombie(i);
+          } else {
+            p = simulatePerson(i);
+          }
+          nextGen[i] = p;
+        }
+        doneQ.put(work);
+      }
+    } catch (InterruptedException e) {
+      println("Interrupted!");
+    }
+  }
+}
+
+Thread[] threads = new Thread[Runtime.getRuntime().availableProcessors()];
+
 Person[] persons = new Person[NUM_PERSONS];
+Person[] nextGen = new Person[NUM_PERSONS];
 
 PFont myFont;
 
+final boolean PARALLEL = true;
+
+final int FPS = 10;
+
 void setup() {
-  size(600,600);
+  size(480,480);
 
   myFont = createFont("arial", 32);
 
@@ -232,7 +291,14 @@ void setup() {
     }
   }
 
-  frameRate(10);
+  if (PARALLEL) {
+    for (int i = 0; i < threads.length; i++) {
+      threads[i] = new Thread(new Worker());
+      threads[i].start();
+    }
+  }
+
+  frameRate(FPS);
   //noLoop();
 }
 
@@ -241,6 +307,8 @@ void keyPressed() {
     paused = !paused;
   }
 }
+
+int ticks = 0;
 
 void draw() {
   background(225);
@@ -271,11 +339,19 @@ void draw() {
   // Print stats
   int[] stats = computeStats();
   textFont(myFont);
-  fill(64, 64, 150, 128);
-  text("Sick: " + String.format("%.1f%%", ((float)stats[0]/persons.length)*100.0f), 350, 520);
+  fill(64, 64, 170, 128);
+  text("Zombies: " + String.format("%5.1f%%", ((float)stats[0]/persons.length)*100.0f), 190, 400);
+  
+  // Print time
+  int sec = ticks / (FPS);
+  int frac = ((ticks % (FPS)) * 100) / FPS;
+  String time = String.format("%3d.%02d", sec, frac);
+  text(time, 20, 400);
   
   if (paused) {
-    text("Paused", 350, 560);
+    text("Paused", 190, 240);
+  } else {
+    ticks++;
   }
 }
 
@@ -291,44 +367,85 @@ int[] computeStats() {
 
 // Do computations for one time step of the simulation
 void simulate() {
-  for (int i = 0; i < NUM_PERSONS; i++) {
-    if (persons[i].sick) {
-      simulateZombie(i);
-    } else {
-      simulatePerson(i);
-    }
+  try {
+    doSimulate();
+  } catch (InterruptedException e) {
+    // ignore
   }
 }
 
-void simulateZombie(int i) {
+void doSimulate() throws InterruptedException {
+  if (!PARALLEL) {
+    for (int i = 0; i < NUM_PERSONS; i++) {
+      Person p;
+      if (persons[i].sick) {
+        p = simulateZombie(i);
+      } else {
+        p = simulatePerson(i);
+      }
+      nextGen[i] = p;
+    }
+  } else {
+    // Send work to worker threads
+    int numChunks = threads.length * 4;
+    int chunkSize = persons.length / numChunks;
+    for (int i = 0; i < numChunks; i++) {
+      Work work = new Work();
+      work.start = i*chunkSize;
+      work.end = work.start + chunkSize;
+      if (i == numChunks - 1) { work.end += persons.length % chunkSize; }
+      workQ.put(work);
+    }
+
+    // Wait for work to be complete
+    for (int i = 0; i < numChunks; i++) {
+      doneQ.take();
+      //println("Received notification");
+    }
+    //println("All workers done");
+  }
+  
+  // flip arrays
+  Person[] t = persons;
+  persons = nextGen;
+  nextGen = t;
+}
+
+Person simulateZombie(int i) {
+  Person clone = persons[i].dup();
+  
   // Check whether any victims are within agression radius
-  CloseToHealthyPerson pred = new CloseToHealthyPerson(persons[i]);
+  CloseToHealthyPerson pred = new CloseToHealthyPerson(clone);
   Person[] victims = take(i, pred);
   
   Point next;
   if (victims.length > 0) {
     // pursue!
     Point[] randMoves = computeRandomMoves(i, ZOMBIE_MOVE_DIST);
-    next = moveTowards(randMoves, persons[i], victims);
+    next = moveTowards(randMoves, clone, victims);
   } else {
     // normal random move
     float moveDist = NORMAL_MOVE_DIST;
 
     // No sick persons in paranoia raduis: move randomly
     Point[] randMoves = computeRandomMoves(i, moveDist);
-    next = pickMove(persons[i], randMoves);
+    next = pickMove(clone, randMoves);
   }
-  persons[i].moveTo(next);
+  clone.moveTo(next);
   
   // check for spontaneous recovery
   if (random(1) < RECOVERY) {
-    persons[i].sick = false;
+    clone.sick = false;
   }
+  
+  return clone;
 }
 
-void simulatePerson(int i) {
+Person simulatePerson(int i) {
+  Person clone = persons[i].dup();
+  
   // Find out if there are any infected persons within PARANOIA radius
-  CloseToSickPerson pred = new CloseToSickPerson(persons[i]);
+  CloseToSickPerson pred = new CloseToSickPerson(clone);
   Person[] infected = take(i, pred);
   
   // Compute a next move
@@ -341,24 +458,26 @@ void simulatePerson(int i) {
     
     // Compute random moves, pick the one that maximizes the
     // minimim distance to an infected person
-    Point[] randMoves = computeRandomMoves(i, /*ESCAPE_MOVE_DIST*/moveDist);
-    next = moveAway(randMoves, persons[i], infected);
+    Point[] randMoves = computeRandomMoves(i, moveDist);
+    next = moveAway(randMoves, clone, infected);
   } else {
     float moveDist = NORMAL_MOVE_DIST;
 
     // No sick persons in paranoia raduis: move randomly
     Point[] randMoves = computeRandomMoves(i, moveDist);
-    next = pickMove(persons[i], randMoves);
+    next = pickMove(clone, randMoves);
   }
-  persons[i].moveTo(next);
+  clone.moveTo(next);
   
   // Check for spontaneous sickness
   // or infection spread from a sick person
   if (random(1) < SPONTANEOUS_INFECT) {
-    persons[i].sick = true;
+    clone.sick = true;
   } else if (pred.getMinDist() < INFECT_RADIUS && random(1) < INFECT) {
-    persons[i].sick = true;
+    clone.sick = true;
   }
+  
+  return clone;
 }
 
 Person[] take(int ignore, Predicate<Person> pred) {
@@ -379,9 +498,9 @@ Point[] computeRandomMoves(int index, float moveDist) {
     boolean inBounds = false;
     float upx=0, upy=0;
     while (!inBounds) {
-      double theta = random((float)(2*Math.PI));
-      upx = subj.x + (float)(moveDist * Math.cos(theta));
-      upy = subj.y + (float)(moveDist * Math.sin(theta));
+      int t = (int)random(360); // choose a random angle
+      upx = subj.x + (moveDist * SIN[t]);
+      upy = subj.y + (moveDist * COS[t]);
       inBounds = upx >= 0 && upx < WIDTH && upy >= 0 && upy < HEIGHT;
     }
     moves[i] = new Point(upx, upy);

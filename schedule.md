@@ -38,11 +38,11 @@ Sep 26 | <span class="topic-mus">MU</span> | [Lab 5: Drum and bass](labs/lab05.h
 Sep 28 | <span class="topic-mus">MU</span> | [Lab 6: Melodies](labs/lab06.html) | [Day 10](agenda/day10.html) | &mdash; | &mdash;
 Oct 3 | <span class="topic-mus">MU</span> | [Lab 7: Sample playback](labs/lab07.html) | [Day 11](agenda/day11.html) | &mdash; | &mdash;
 Oct 5 | <span class="topic-mus">MU</span> | Computers and music discussion<br>Organization (mini-lesson) | [Day 12](agenda/day12.html) | [A3 essay, code](assign/assign03.html) | [IAMUSDocumentary](https://www.youtube.com/watch?v=ETGDbWvWCbM), [Guardian1Jul12](http://www.theguardian.com/music/2012/jul/01/iamus-computer-composes-classical-music), and [0musicPlaylist](https://www.youtube.com/playlist?list=PLwUOBZdCYUCMjW1DKCQxqVJp3xmoh42e2)
-Oct 10 | <span class="topic-hum">DH</span> | N-grams | [Day 13](agenda/day13.html) | &mdash; | &mdash;
-Oct 12 | | TBD | &mdash; | [A4 draft](assign/assign04.html) (Friday) | &mdash;
+Oct 10 | <span class="topic-hum">DH</span> | [Lab 8: N-grams](labs/lab08.html) | [Day 13](agenda/day13.html) | &mdash; | &mdash;
+Oct 12 | <span class="topic-sci">PS</span> | [Lab 9: Outbreak](labs/lab09.html) | &mdash; | [A4 draft](assign/assign04.html) (Friday) | &mdash;
 Oct 17 | | Fall vacation, no class
 Oct 19 | <span class="topic-sc">SC</span> | Ready, set, registration! |
-Oct 24 |  <span class="topic-sci">PS</span> | Outbreak | &mdash; | [A4 essay, code](assign/assign04.html) | &mdash;
+Oct 24 |  | | &mdash; | [A4 essay, code](assign/assign04.html) | &mdash;
 Oct 26 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 1 | |  
 Oct 31 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 2 |
 Nov 2 | <span class="topic-phy">PH</span> | Team Building - Rube Goldberg Device |

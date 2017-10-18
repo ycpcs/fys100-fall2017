@@ -1,29 +1,20 @@
 ---
 layout: default
-title: "Day 16 agenda"
+title: "Day 15 agenda"
 ---
 
 # Agenda
+Today we will be working with [Scratch4Arduino](http://s4a.cat). This is a block-based languaged original developed out of the [MIT Media Lab](https://www.media.mit.edu/). Yes, this is another programming language we're teaching you BUT if you can snap lego blocks together, you can program in Scratch.
 
-We will be using the [Google Ngram Viewer](https://books.google.com/ngrams) to test hypotheses about history and culture.
-
-## Get ready
+Follow through on Lab 10 to get started. Also, begin reading [Weiser91](http://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf) and [Weiser93](http://www.cs.princeton.edu/courses/archive/spring99/cs598c/papers/p75-weiser.pdf) in preparation for our discussion on pervasive computing.
 
 <img class="parimg" alt="Get ready" src="img/getready.png">
 
+
+
+
+## Get ready
+
+Nothing for today. Just come ready to learn something new!
+
 <div style="clear: both;"></div>
-
-Start by watching [MichelAidenTEDJul2011](https://www.ted.com/talks/what_we_learned_from_5_million_books?language=en#t-512521).
-
-Based on what you learn from the video, answer the following questions[\*]:
-
-1. What are ngrams? Why did Google release ngrams instead of the full text of the books?
-2. In what year did "thrived" become more popular than "throve" (at least in texts?)
-3. What is culturomics?
-4. Why was the word “beft” popular in texts before 1800?
-
-Next, think of a hypothesis about history or culture that you can test using the Google NGram Viewer.
-
-Write your answers to the above questions and your hypothesis in a document called `NGramPrep` in your shared Google drive folder.
-
-[\*] These questions are from [an assignment](http://pages.cs.wisc.edu/~dusseau/Classes/CS202H-F12/Assignments/hw5) created by [Andrea Arpaci-Dusseau](http://pages.cs.wisc.edu/~dusseau/), used respectfully but without explicit permission

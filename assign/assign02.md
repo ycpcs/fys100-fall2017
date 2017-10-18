@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 2: Team project proposal"
 ---
 
-**Due**: Tuesday, Sept 12th by 11:59 PM
+**Due**: Tuesday, Sept 19th by 11:59 PM
 
 In this assignment you will propose an idea for a team project.  First, read the **Concept** section, which describes the concept for the team project.  Next, read the **Requirements** section, which describes the requirements for the team project.  Finally, read the **Deliverable** section, which explains what information you should include in your team's proposal.
 
@@ -31,10 +31,25 @@ Here is a sketch of an example installation (click for full size):
 
 This (example) installation will be mounted in a box attached to the wall.  The theme of the installation is water.  The touchscreen displays a simulated water animation, and the speakers play the sound of running water.  The range sensor detects when a person approaches the installation, and when someone approaches the sound volume increases, and blue LEDs start pulsing with an intensity proportional to the user's proximity.  When the user touches the touchscreen, a ripple animation is displayed centered on the point where the user touched, and a "plunk" sound plays.
 
-## Available sensors
+## Available sensors and actuators
+
+This section lists some of the possible sensors and actuators you can use in your project.  Note that this list is by no means exhaustive: you can look at the [Adafruit](https://www.adafruit.com) and [SparkFun](https://www.sparkfun.com) websites for more ideas.
 
 Sensor | Type 
 ---------- | ---- 
+<<<<<<< HEAD
+=======
+[Accelerometer](../resources/datasheets/Accelerometer.pdf) | Used to determine motion.
+[Force sensitive resistor](../resources/datasheets/ForceSensitiveResistor.pdf) | Senses the force applied to a surface.
+[Motion detector](../resources/datasheets/MotionDetector.pdf) | Detects motion in the space in front of the sensor.
+[Photocell](../resources/datasheets/Photocell.pdf) | Detects the intensity of the light hitting the sensor.
+[RGB\_LED](../resources/datasheets/RGB_LED.pdf) | A light emitting diode (LED) that can light up in any color.
+[ReedSwitch](../resources/datasheets/ReedSwitch.pdf) | Detects when a magnet is in close proximity.
+[ServoMotor](../resources/datasheets/ServoMotor.pdf) | A small controllable electric motor.
+[Slider](../resources/datasheets/Sliders.pdf) | A strip that detects touch.
+[Ultrasonic range finder](../resources/datasheets/UltrasonicRangeFinder.pdf) | Detects the distance of objects from the sensor.
+[Vibration motor](../resources/datasheets/VibrationMotor.pdf) | Vibrates (like a cell phone in vibrate mode.)
+>>>>>>> refs/remotes/origin/gh-pages
 
 
 # Requirements

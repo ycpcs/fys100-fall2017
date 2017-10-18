@@ -43,7 +43,7 @@ Oct 12 | <span class="topic-hum">DH</span> |  [Lab 9: N-grams](labs/lab09.html) 
 Oct 17 | | Fall vacation, no class
 Oct 19 | <span class="topic-sc">SC</span> | Ready, set, registration! |
 Oct 24 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 1 |[Day 15](agenda/day15.html)|[A4 essay, code](assign/assign04.html) |  &mdash;
-Oct 26 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 2 |[Day 16](agenda/day16.html)| &mdash; |[Weiser91] (http://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf)
+Oct 26 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 2 |[Day 16](agenda/day16.html)| &mdash; |[Weiser91](http://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf)
 Oct 31 | <span class="topic-phy">PH</span> | Team Building - Rube Goldberg Device | [Day 17](agenda/day17.html)| &mdash; |&mdash;
 Nov 2 | <span class="topic-phy">PH</span> | Prototypes: Play Date and Exploration with Scratch |
 Nov 7 | <span class="topic-phy">PH</span> | Connecting Arduino and Processing |

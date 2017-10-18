@@ -1,308 +1,79 @@
 ---
 layout: default
-title: "Lab 8: Synthesis, Effects"
+title: "Lab 9: Outbreak"
 ---
 
 # Learning goals
 
-* Experiment with synthesis using raw waveforms
-* Experiment with audio effects
+* Explore simulation as a way of modeling and understanding natural phenomena
 
 # What to do
 
-Today you will experiment with
+A *simulation* is a program which simulates a natural phenomenon.  The idea is that the program uses a *model* of the phenomenon being studied, such that the model is a representation of particular aspects of the phenomenon being studied.  For example, in a weather simulation, the model might use representations of temperature, air pressure, humidity, and cloud cover over a field of simulated locations.  A simulation's model will also contain rules about how the simulation evolves over time.  For example, in a weather simulation, one of the rules might be that if two adjacent locations, if the air pressure is different, wind occurs to equalize the pressure (because air moves from regions with higher pressure to regions with lower pressure).
 
-1. Synthesis using raw waveforms such as sine, square, and sawtooth waves
-2. Audio effects such as reverb, delay, flanger, and pan
+A simulation's model will also typically have *parameters*, which are values influencing how the model's rules are applied over time.  These parameters often come from known physical constants, in which case we set the parameters in order to match physical reality.  However, in some cases, changing the parameters may allow us to understand a broad class of phenomena: different combinations of parameters correspond to different "scenarios".
 
-You should read the "What sound is" and "Electronic waveforms" sections.  Then follow the steps in the "Getting started" and "Experiments" sections.  Finally, the "Your turn" section describes how you can apply some of these techniques to the composition you are working on as part of [Assignment 4](assign/assign04.html).
+In this lab, we will experiment with the parameters of an "Outbreak" simulation, in order to learn about how factors in disease transmission affect a population of individuals.  See the *Outbreak* and *Experiments* sections for details about the simulation, and the experiments we will run.
 
-## What sound is
+## Outbreak
 
-<div class="callout"><b>Important</b>: Before you try playing any of the sound samples below, adjust the system volume control on the computer you are using so that it is on a low setting.</div>
+In this lab, we will experiment with parameters for a simulation of disease transmission in a population of inviduals.  Here is the code (which you should copy into Processing):
 
-Sound is caused by rapid vibrations, or *oscillations*, in physical objects.  These oscillations cause rapid changes in air pressure over time.
+> [Outbreak.pde](https://github.com/ycpcs/fys100-fall2017/blob/gh-pages/labs/Outbreak.pde)
 
-Sounds can be characterized by the *rate* at which the changes in air pressure occur.  For example, let's say that a vibration causes air pressure to increase and decrease at a rate of 440 changes per second: in other words, 440 times per second, the air pressure increases and then decreases.  We would describe this sound as having a *frequency* of 440 Hertz, abbreviated 440 Hz.
+The initial conditions of the simulation are as follows:
 
-Sounds with lower frequencies sound "low", and sounds with higher frequencies sound "high".  The lowest frequency that we can hear is about 20 Hz, while the highest frequency we can hear is about 20,000 Hz.
+* There is a population of individuals occupying a 600x600 area
+* The initial locations of the individuals are distributed randomly
+* Each individual has some probability of being sick initially, so the initial population is a mixture of healthy and sick individuals
+* Each individual is either healthy or sick
 
-The most fundamental kind of oscillation is the *sine wave*:
+At each time step of the simulation:
 
-> ![Sine wave](../img/lab08/sinewave.png)
+* Each individual will move: randomly if there are no sick individuals nearby, and as far as possible from sick individuals if there are some nearby
+* With some probability, a healthy individual that is in proximity to a sick individual will become sick
+* With some probability, a healthy individual that is *not* in proximity to a sick individual will become sick
+* With some probability, a sick individual will recover and become healthy
 
-The diagram above is a plot of air pressure over time, where the x-axis is time, and the y-axis is pressure relative to the average air pressure.  Points above the x-axis represent air pressure higher than the current average, and points below the x-axis represent air pressure lower than the current average.
+When you run the program, it will display an animation showing the progress of the simulation.  There will be about 10 simulated time steps per second.  The simulation looks like this (click for full size):
 
-Sine waves tend to occur naturally due to the way physical objects vibrate.  A pure sine wave represents a single clear tone.  For example, here is a sample of a 440 Hz sine wave:
+> <a href="../img/lab11/outbreak.png"><img style="width: 303px;" alt="Outbreak screenshot" src="../img/lab11/outbreak.png"></a>
 
-> <iframe width="600" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/225567736&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+Black dots are healthy individuals, red dots are sick individuals.  The pink circles around sick individuals represent the radius in which disease transmission can occur.  The overall percentage of sick individuals is also displayed.  You can pause and unpause the simulation by pressing the space bar.
 
-A sound consisting of a single sine wave tends to sound very artificial because sounds arising from the vibration of physical objects tend to have *overtones*, which are vibrations occuring at a multiple of the sound's base frequency.  For example, when an instrument string vibrates, the length of the string will determine the base frequency, but overtones will occur which are twice the base frequency, three times the base frequency, four times the base frequency, etc.
+At the top of the program, you will notice definitions of the following simulation parameters:
 
-Here is a sample of a 440 Hz sine wave, along with some overtones:
+> Parameter name | Description | Default value
+> :------------: | ----------- | ------------:
+> `MAXCROWD` | Individuals will always try to stay at least this distance from other individuals | 2.0
+> `PARANOIA` | If any sick individuals are this close (or closer), try to move away from them | 160.0
+> `NORMAL_MOVE_DIST` | How far individuals move normally, when they are not trying to get away from sick individuals | 3.0
+> `ESCAPE_MOVE_DIST` | How far individuals move when they are trying to escape from sick individuals | 6.0
+> `NUM_MOVES` | How many randomly-generated moves each individual will consider per time step | 10
+> `INIT_SICK` | Probability that an individual is sick initially | 0.005
+> `RECOVERY` | Probability per time step that a sick individual will spontaneously recover | 0.1
+> `SPONTANEOUS_INFECT` | Probability per time step that a healthy individual will spontaneously become sick | 0.001
+> `INFECT_RADIUS` | Radius surrounding a sick individual where transmission to a healthy individal may occur (this should not be greater than `PARANOIA`) | 20.0
+> `INFECT` | Probability per time step of a healthy individual being infected by a sick individual that is close proximity | 0.05
 
-> <iframe width="600" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/225569272&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-
-Note that in the audio sample above, the relative volume of the overtone frequencies has been lowered relative to the volume of the base frequency.
-
-It turns out that *any* sound imaginable can be created by combining sine waves.  All of the sounds that you hear are combinations of sine waves with varying frequencies and volumes.
-
-## Electronic waveforms
-
-Electronic instruments, such as synthesizers and computers with sound output hardware, are not limited to creating pure sine waves.  In fact, it tends to be easier for digital devices to generate "artificial" sound waveforms.  Here are some examples of commonly-used electronic waveforms.
-
-A square wave is characterized by abrupt transitions between low to high pressure:
-
-> ![Square wave](../img/lab08/squarewave.png) 
-
-Here is a sample of a 440 Hz square wave:
-
-> <iframe width="600" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/225567893&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-
-A square wave has a more complex sound than a sine wave of the same frequency.  The shape of the waveform results in [higher frequency overtones at odd multiples of the base frequency](http://www.embedded.com/print/4015870).
-
-Another common electronic waveform is the sawtooth wave, characterized by a linear rise and an abrupt fall in pressure during each oscillation:
-
-> ![Sawtooth wave](../img/lab08/sawtoothwave.png)
-
-Here is a sample of a 440 Hz sawtooth wave:
-
-> <iframe width="600" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/225567809&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-
-Again, the sawtooth wave has a more complex sound than a sine wave of the same frequency.
-
-A triangle wave is like a sawtooth wave, except rather than having an abrupt fall, the fall is linear:
-
-> ![Triangle wave](../img/lab08/trianglewave.png)
-
-Here is a sample of a 440 Hz triangle wave:
-
-> <iframe width="600" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/225567949&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-
-The sound of a triangle wave is similar to a square wave.
-
-## Getting started
-
-Start Processing.
-
-Copy the code from the following sketch into an empty sketch:
-
-> [Synthesis.pde](https://github.com/ycpcs/fys100-fall2016/blob/gh-pages/labs/demo/lab08/Synthesis.pde)
+By changing these parameters, you can study disease occurrence and transmission within the population.
 
 ## Experiments
 
-Run the sketch.
+Here are some experiments to try.  Write up the results of each experiment in a document in your shared Google Drive folder called **Outbreak Experiments**.  For each experiment, in addition to recording the results of the experiment, try to explain (in words) *why* you think the phenomenon you observed occurred.
 
-If you click the mouse somewhere in the window, you should hear a metronome pattern.
+1. When you start the simulation using the original values of the simulation parameters and let it run for a while, does the percentage of sick individuals stabilize (to a reasonable degree)?  If so, what is the (rough) percentage of sick individuals in the steady state?  If not, what do you think causes the instability?
+2. What happens when you increase or decrease the `INFECT_RADIUS` parameter?  Try several values, and describe what happens for each value.  (Leave the other parameters at there original default values.)
+3. What happens when you increase or decrease the `PARANOIA` parameter?  Try several values, and describe what happens for each value.  (Leave the other parameters at there original default values.)
+4. What happens when you increase or decrease the `INFECT` parameter?  Try several values, and describe what happens for each value.  (Leave the other parameters at there original default values.)
+5. What happens when you increase or decrease the `RECOVERY` parameter?  Try several values, and describe what happens for each value.  (Leave the other parameters at there original default values.)
 
-While the rhythm pattern is playing, you can use the following keyboard keys to play notes:
+After doing these experiments, think about how the simulation works, and answer the following question: Do you think the simulation is realistic?  Also, state one or more ways that the simulation could be made more realistic.
 
-> ![Keyboard keys to play notes](https://raw.githubusercontent.com/wiki/daveho/FunWithSound/img/p5keys.png)
+Finally, if you still have some time, try modifying multiple parameters at the same time.  See if you can find some combinations of parameters that cause interesting phenemona to occur.  Record the parameter combinations and a description of what happened.
 
-Note that you can only play notes from one octave: the current octave is highlighted in green in the picture of the piano keyboard you see in the window.  You can use the up and down arrow keys to move the current octave higher or lower.
+## Just for fun
 
-Now you can try some experiments!  If you scroll down to the bottom of the Processing code, you will see a method called `registerCustomInstruments`.  This method configures FunWithSound to play notes using the basic waveforms described earlier.  You will see comments labeled "Custom instrument 0", "Custom instrument 1", "Custom instrument 2", etc.  Some of the experiments will involve changing these instrument definitions to produce different sounds.  Also, note how there are comments such as
+What if the sick individuals actively *pursue* the healthy individuals?  Now we're taking about *zombies*!  Create a new Processing window and copy the code from the following sketch into it:
 
-{% highlight java %}
-// <-- try Buffer.SQUARE, Buffer.SAW, Buffer.TRIANGLE
-{% endhighlight %}
-
-on some lines of code.  These comments highlight changes you can make to change the note sounds.
-
-Note: if you change the code, you will need to restart the sketch in order for your changes to take effect.
-
-### Experiment 1: Basic synth sounds
-
-Find the section of `registerCustomInstruments` that defines custom instrument 0.  Note how the code uses `Buffer.SINE`.  This causes notes to be played as a sine wave.  Try changing this as described in the comment to use square, sawtooth, and triangle waves.  Which waveform is your favorite?
-
-### Experiment 2: Using a note envelope
-
-One thing that you will notice about custom instrument 0 is that the note sounds turn on and off very abruptly.  Rapid changes in volume tend to produce a clicking or popping sound.  These pops can be avoided by playing the notes with an *envelope*.  When a note envelope is used, notes start playing with a rise in volume over a specified *attack time*, and stop playing with a lowering of volume over a specified *release time*.
-
-Towards the top of the program, change the line
-
-{% highlight java %}
-Instrument synth = custom(0); // <-- change this to select among the custom instruments
-{% endhighlight %}
-
-to
-
-{% highlight java %}
-Instrument synth = custom(1); // <-- change this to select among the custom instruments
-{% endhighlight %}
-
-Try restarting the program and playing some notes.  Note how the notes sound more natural.
-
-In the section of `registerCustomInstruments` that defines custom instrument 1, you can adjust the attack time and release time parameters to change the note envelope.  These times are specified in milliseconds: for example, 100 milliseconds is one tenth of one second.
-
-### Experiment 3: Portamento
-
-*Portamento* describes the effect of "gliding" from note to note by changing the sound frequency somewhat gradually.  Using custom instrument 1, try changing the glide time parameter to a value other than 0.  The glide time is specified in milliseconds.  Suggestion: try values such as 40, 80, 100, and 200.
-
-### Experiment 4: Overtones
-
-Most "natural" sounds consist of multiple simultaneous frequencies.  You can change custom instrument 2 to define multiple frequencies to sound each time a note is played.  Look for the following lines:
-
-{% highlight java %}
-new double[]{ 1.0, 1.5, 2.0 }, // <-- try changing the multiples, adding new multiples
-new double[]{ 1.0, 0.5, 0.25 } // <-- try changing the gains (volumes)
-{% endhighlight %}
-
-The numbers in the first line define multiples of the base note frequency.  The values 1.0, 1.5, and 2.0 correspond to the base note frequency, one and a half times the note frequency, and twice the note frequency.
-
-The numbers in the first line define the "gains" of each frequency multiple.  1.0 means full volume, while 0.0 means complete silence.
-
-By combining frequencies at different volumes, you can change the note sound considerably.  Try other combinations of frequency multiples and gains.  For example, try the multiples .5, 1.0, and 2.0.  Try "random" multiples, for example, 1.0, 1.89, and 2.354.  Note that you can have more than three multiples and gains, but you should always have the same number of multiples and gains.
-
-Make sure that you try different waveforms (including square, saw, and triangle).
-
-### Experiment 5: Effects
-
-Another way to change the sound of a synthesized instrument is to add *effects*.  Here are some effects you can try.
-
-*Reverb* is an effect that simulates sound bouncing around inside a large space.  To use reverb, remove the `//` comment marker from the following, towards the top of the program where the instrument is defined:
-
-{% highlight java %}
-//addfx(synth, new AddReverb()); // <-- uncomment this line to add reverb
-{% endhighlight %}
-
-After removing the comment marker, it should look like this:
-
-{% highlight java %}
-addfx(synth, new AddReverb()); // <-- uncomment this line to add reverb
-{% endhighlight %}
-
-Try playing some notes with the reverb effect.
-
-FunWithSound allows multiple effects to be added to the same instrument.  Here are some other effects you can try, individually, or in combination:
-
-{% highlight java %}
-// Flanger effect
-addfx(synth, new AddFlanger());
-
-// Delay effect: creates a clear "echo" of the played sound
-addfx(synth, new AddDelay(400.0, 1.0, 0.6)); // 400ms delay, delayed echo at 60% volume
-
-// Chained delays: create multiple echoes
-addfx(synth, new AddDelay(400.0, 1.0, 0.6));
-addfx(synth, new AddDelay(800.0, 1.0, 0.5));
-addfx(synth, new AddDelay(1200.0, 1.0, 0.4));
-
-// Autopan effect: pan the sound between left and right channels
-addfx(synth, new AddAutoPan(.5, -.8, .8)); // .5 Hz (one full pan every 2 seconds), 80% stereo separation
-
-// Ping pong stereo delays: create echoes that alternate between
-// left and right channels
-DataBead ppdParams = Defaults.pingPongStereoDelayDefaults();
-ppdParams.put(ParamNames.NUM_DELAYS, 4); // number of delays
-ppdParams.put(ParamNames.DELAY_MS, 250); // number of milliseconds between delays
-addfx(synth, new AddPingPongStereoDelays(ppdParams));
-{% endhighlight %}
-
-# Your turn
-
-You can use custom synthesis instruments and/or audio effects in your sketch for [Assignment 4](../assign/assign04.html).  Here's how.
-
-First, find the line of code at the top of your sketch reading:
-
-{% highlight java %}
-import io.github.daveho.funwithsound.*;
-{% endhighlight %}
-
-Add the following two lines just below it:
-
-{% highlight java %}
-import net.beadsproject.beads.core.*;
-import net.beadsproject.beads.data.*;
-{% endhighlight %}
-
-Next, find the line of code reading:
-
-{% highlight java %}
-FunWithSound fws = new FunWithSound(this);
-{% endhighlight %}
-
-Change it to the following:
-
-{% highlight java %}
-FunWithSound fws = new FunWithSound(this) {
-  protected Player createPlayer() {
-    Player player = super.createPlayer();
-    registerCustomInstruments(player);
-    return player;
-  }
-};
-{% endhighlight %}
-
-Finally, add the following function to the end of your sketch (warning, there's quite a bit of code):
-
-{% highlight java %}
-void registerCustomInstruments(Player player) {
-  // The code below defines the characteristics of the custom instruments.
-  // Comments indicate where you can make changes.
-  
-  CustomInstrumentFactory factory = new CustomInstrumentFactoryImpl(
-    // Custom instrument 0: plays simple wave forms with a single frequency,
-    // using a simple on/off envelope
-    0, new CustomInstrumentFactoryImpl.CreateCustomInstrument() {
-      public RealizedInstrument create(AudioContext ac) {
-        DataBead params = Defaults.monosynthDefaults();
-        params.put(ParamNames.GLIDE_TIME_MS, 0.0f);
-        SynthToolkit tk = SynthToolkitBuilder.start()
-          .withWaveVoice(Buffer.SINE) // <-- try Buffer.SQUARE, Buffer.SAW, Buffer.TRIANGLE
-          .withOnOffNoteEnvelope()
-          .getTk();
-        MonoSynthUGen2 u = new MonoSynthUGen2(ac, tk, params,
-          new double[]{ 1.0 },
-          new double[]{ 1.0 }
-          );
-        return new RealizedInstrument(u, ac);
-      }
-    },
-    
-    // Custom instrument 1: simple waveforms with a single frequency,
-    // but with an attack/sustain/release envelope
-    1, new CustomInstrumentFactoryImpl.CreateCustomInstrument() {
-      public RealizedInstrument create(AudioContext ac) {
-        DataBead params = Defaults.monosynthDefaults();
-        params.put(ParamNames.GLIDE_TIME_MS, 0.0); // <-- try increasing this for portamento
-        params.put(ParamNames.ATTACK_TIME_MS, 10.0); // <-- change the attack time
-        params.put(ParamNames.RELEASE_TIME_MS, 80.0); // <-- change the release time
-        SynthToolkit tk = SynthToolkitBuilder.start()
-          .withWaveVoice(Buffer.SINE) // <-- try Buffer.SQUARE, Buffer.SAW, Buffer.TRIANGLE
-          .withASRNoteEnvelope()
-          .getTk();
-        MonoSynthUGen2 u = new MonoSynthUGen2(ac, tk, params,
-          new double[]{ 1.0 },
-          new double[]{ 1.0 }
-          );
-        return new RealizedInstrument(u, ac);
-      }
-    },
-    
-    // Custom instrument 2: simple wave forms with multiple frequencies,
-    // with attack/sustain/release envelope
-    2, new CustomInstrumentFactoryImpl.CreateCustomInstrument() {
-      public RealizedInstrument create(AudioContext ac) {
-        DataBead params = Defaults.monosynthDefaults();
-        params.put(ParamNames.GLIDE_TIME_MS, 40.0);
-        SynthToolkit tk = SynthToolkitBuilder.start()
-          .withWaveVoice(Buffer.SINE) // <-- try Buffer.SQUARE, Buffer.SAW, Buffer.TRIANGLE
-          .withASRNoteEnvelope()
-          .getTk();
-        MonoSynthUGen2 u = new MonoSynthUGen2(ac, tk, params,
-          new double[]{ 1.0, 1.5, 2.0 }, // <-- try changing the multiples, adding new multiples
-          new double[]{ 1.0, 0.5, 0.25 } // <-- try changing the gains (volumes)
-          );
-        return new RealizedInstrument(u, ac);
-      }
-    }
-    
-    );
-  player.setCustomInstrumentFactory(factory);
-}
-{% endhighlight %}
-
-Once you've made these changes, you can define custom instruments exactly as described above in the "Experiments" section.
-
-Try adding a custom synthesizer and some effects to your composition.
+> [Zombies.pde](https://github.com/ycpcs/fys100-fall2017/blob/gh-pages/labs/Zombies.pde)

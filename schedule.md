@@ -21,42 +21,42 @@ Topic codes:
 * <span class="topic-art">VA</span> Visual art
 * <span class="topic-mus">MU</span> Music
 * <span class="topic-hum">DH</span> Digital humanities
-* <span class="topic-sci">SC</span> Science
+* <span class="topic-sci">PS</span> Science
 * <span class="topic-phy">PH</span> Physical computing
 
 Date | Topic | Activity | Agenda | Due | Reading
 ---- | ----- | -------- | ------ | --- | -------
 Aug 29 | <span class="topic-sc">SC</span> | First day | [Day 1](agenda/day01.html) | [Assignment 0](assign/assign00.html) | &mdash;
 Aug 31 | <span class="topic-sc">SC</span> | Discussion: expectations for college<br>Team project intro | [Day 2](agenda/day02.html) | &mdash; | [NYTEd30Jul15](http://www.nytimes.com/2015/08/02/education/edlife/advice-for-new-students-from-those-who-know-old-students.html), [Lahey15](http://www.theatlantic.com/education/archive/2015/08/when-success-leads-to-failure/400925/) 
-Sep 5 | <span class="topic-art">VA</span> | [Lab 1: Drawing with Processing](labs/lab01.html) | [Day 3](agenda/day03.html) | &mdash; | Start [Noll76](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5217127)<br>LP, Chapters 1&ndash;2
+Sep 5 | <span class="topic-art">VA</span> | [Lab 1: Drawing with Processing](labs/lab01.html) | [Day 3](agenda/day03.html) | &mdash; | Start [Noll67](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5217127)<br>LP, Chapters 1&ndash;2
 Sep 7 | <span class="topic-art">VA</span> | [Lab 2: Repetition](labs/lab02.html) | [Day 4](agenda/day04.html) | &mdash; | &mdash;
-Sep 12 | <span class="topic-art">VA</span> | [Lab 3: Animation](labs/lab03.html) | [Day 5](agenda/day05.html) | [A2 (project proposal)](assign/assign02.html) | &mdash;
-Sep 14 | <span class="topic-sc">SC</span> | Being an engaged learner<br><b>Important</b>: class meets in Weinstock Lecture Hall, Willman Business Center | [Day 6](agenda/day06.html) | &mdash; | &mdash;
-Sep 19 | <span class="topic-art">VA</span> | [Lab 4: Generative Art](labs/lab04.html) | [Day 7](agenda/day07.html) | &mdash; | LP, Chapters 3&ndash;4<br>[ShiffmanNOCCh8](http://natureofcode.com/book/chapter-8-fractals/)
-Sep 21 | <span class="topic-art">VA</span> | Computers and art discussion<br>On-Campus Resources (mini-lesson) | [Day 8](agenda/day08.html) | &mdash; | [Noll76](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5217127)
+Sep 12 | <span class="topic-art">VA</span> | [Lab 3: Animation](labs/lab03.html) | [Day 5](agenda/day05.html) | &mdash; | &mdash;
+Sep 14 | <span class="topic-sc">SC</span> | Being an engaged learner<br><b>Important</b>: class meets in Weinstock Lecture Hall, Willman Business Center | [Day 6](agenda/day06.html) | [A3 outline](assign/assign03.html) | &mdash;
+Sep 19 | <span class="topic-art">VA</span> | On-Campus Resources (mini-lesson)<br>[Lab 4: Generative Art](labs/lab04.html) | [Day 7](agenda/day07.html) | [A2 (project proposal)](assign/assign02.html) | LP, Chapters 3&ndash;4<br>[ShiffmanNOCCh8](http://natureofcode.com/book/chapter-8-fractals/)
+Sep 21 | <span class="topic-art">VA</span> | Computers and art discussion | [Day 8](agenda/day08.html) | [A3 draft](assign/assign03.html) | [Noll67](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5217127)
 Sep 26 | <span class="topic-mus">MU</span> | [Lab 5: Drum and bass](labs/lab05.html) | [Day 9](agenda/day09.html) | &mdash; | Start [IAMUSDocumentary](https://www.youtube.com/watch?v=ETGDbWvWCbM), [Guardian1Jul12](http://www.theguardian.com/music/2012/jul/01/iamus-computer-composes-classical-music), and [0musicPlaylist](https://www.youtube.com/watch?v=SxvV5zn7e9s)
 Sep 28 | <span class="topic-mus">MU</span> | [Lab 6: Melodies](labs/lab06.html) | [Day 10](agenda/day10.html) | &mdash; | &mdash;
 Oct 3 | <span class="topic-mus">MU</span> | [Lab 7: Sample playback](labs/lab07.html) | [Day 11](agenda/day11.html) | &mdash; | &mdash;
-Oct 5 | <span class="topic-mus">MU</span> | Computers and music discussion<br>Organization (mini-lesson) | [Day 12](agenda/day12.html) | &mdash; | [IAMUSDocumentary](https://www.youtube.com/watch?v=ETGDbWvWCbM), [Guardian1Jul12](http://www.theguardian.com/music/2012/jul/01/iamus-computer-composes-classical-music), and [0musicPlaylist](https://www.youtube.com/playlist?list=PLwUOBZdCYUCMjW1DKCQxqVJp3xmoh42e2)
-Oct 10 | <span class="topic-hum">DH</span> | N-grams
-Oct 12 | | Team project design concept presentations
+Oct 5 | <span class="topic-mus">MU</span> | Computers and music discussion<br>Organization (mini-lesson) | [Day 12](agenda/day12.html) | [A3 essay, code](assign/assign03.html) | [IAMUSDocumentary](https://www.youtube.com/watch?v=ETGDbWvWCbM), [Guardian1Jul12](http://www.theguardian.com/music/2012/jul/01/iamus-computer-composes-classical-music), and [0musicPlaylist](https://www.youtube.com/playlist?list=PLwUOBZdCYUCMjW1DKCQxqVJp3xmoh42e2)
+Oct 10 | <span class="topic-sci">PS</span> | [Lab 8: Outbreak](labs/lab08.html) | [Day 13](agenda/day13.html) | &mdash; | &mdash;
+Oct 12 | <span class="topic-hum">DH</span> |  [Lab 9: N-grams](labs/lab09.html) | [Day 14](agenda/day14.html) | [A4 draft](assign/assign04.html) (Friday) | &mdash;
 Oct 17 | | Fall vacation, no class
 Oct 19 | <span class="topic-sc">SC</span> | Ready, set, registration! |
-Oct 24 |  <span class="topic-sci">SC</span> | Outbreak
-Oct 26 | <span class="topic-phy">PH</span>
-Oct 31 | <span class="topic-phy">PH</span>
-Nov 2 | <span class="topic-phy">PH</span>
-Nov 7 | <span class="topic-phy">PH</span>
-Nov 9 | <span class="topic-phy">PH</span>
-Nov 14 | <span class="topic-phy">PH</span>
-Nov 16 | <span class="topic-phy">PH</span>
-Nov 21 | <span class="topic-phy">PH</span>
+Oct 24 |  | | &mdash; | [A4 essay, code](assign/assign04.html) | &mdash;
+Oct 26 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 1 | |  
+Oct 31 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 2 |
+Nov 2 | <span class="topic-phy">PH</span> | Team Building - Rube Goldberg Device |
+Nov 7 | <span class="topic-phy">PH</span> | Prototypes: Play Date and Exploration with Scratch |
+Nov 9 | <span class="topic-phy">PH</span> | Connecting Arduino and Processing |
+Nov 14 | <span class="topic-phy">PH</span> | Prototypes and Fabrication |
+Nov 16 | <span class="topic-phy">PH</span> | Work on Installation |
+Nov 21 | <span class="topic-phy">PH</span> | Computing Machines that Are Finite |
 Nov 23 | | Thanksgiving vacation, no class
-Nov 28 |  <span class="topic-phy">PH</span>
-Nov 30 | <span class="topic-phy">PH</span>
-Dec 5 | <span class="topic-phy">PH</span>
-Dec 7 | <span class="topic-phy">PH</span>
-Dec 12 | <span class="topic-phy">PH</span>
+Nov 28 |  <span class="topic-phy">PH</span> | Work on Installation |
+Nov 30 | <span class="topic-phy">PH</span> | Work on Installation |
+Dec 5 | <span class="topic-phy">PH</span> | Work on Installation |
+Dec 7 | <span class="topic-phy">PH</span> | Work on Installation |
+Dec 12 | <span class="topic-phy">PH</span> | Final Presentation and Demos
 
 Readings/Videos/Media:
 

@@ -192,4 +192,4 @@ I messed around a bit and came up with this variation (click for full size):
 
 # Your turn
 
-Think about how you might use a fractal or other generative technique in the sketch you are working on as part of [Assignment 2](../assign/assign02.html).
+Think about how you might use a fractal or other generative technique in the sketch you are working on as part of [Assignment 3](../assign/assign03.html).

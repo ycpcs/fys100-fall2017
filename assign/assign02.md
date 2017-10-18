@@ -37,6 +37,8 @@ This section lists some of the possible sensors and actuators you can use in you
 
 Sensor | Type 
 ---------- | ---- 
+<<<<<<< HEAD
+=======
 [Accelerometer](../resources/datasheets/Accelerometer.pdf) | Used to determine motion.
 [Force sensitive resistor](../resources/datasheets/ForceSensitiveResistor.pdf) | Senses the force applied to a surface.
 [Motion detector](../resources/datasheets/MotionDetector.pdf) | Detects motion in the space in front of the sensor.
@@ -47,6 +49,7 @@ Sensor | Type
 [Slider](../resources/datasheets/Sliders.pdf) | A strip that detects touch.
 [Ultrasonic range finder](../resources/datasheets/UltrasonicRangeFinder.pdf) | Detects the distance of objects from the sensor.
 [Vibration motor](../resources/datasheets/VibrationMotor.pdf) | Vibrates (like a cell phone in vibrate mode.)
+>>>>>>> refs/remotes/origin/gh-pages
 
 
 # Requirements

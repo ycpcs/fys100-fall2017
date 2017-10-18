@@ -42,15 +42,15 @@ Oct 10 | <span class="topic-sci">PS</span> | [Lab 8: Outbreak](labs/lab08.html) 
 Oct 12 | <span class="topic-hum">DH</span> |  [Lab 9: N-grams](labs/lab09.html) | [Day 14](agenda/day14.html) | [A4 draft](assign/assign04.html) (Friday) | &mdash;
 Oct 17 | | Fall vacation, no class
 Oct 19 | <span class="topic-sc">SC</span> | Ready, set, registration! |
-Oct 24 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 1 |[A4 essay, code](assign/assign04.html) |  
-Oct 26 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 1 |[A4 essay, code](assign/assign04.html) |  
-Oct 31 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 2 |
-Nov 2 | <span class="topic-phy">PH</span> | Team Building - Rube Goldberg Device |
-Nov 7 | <span class="topic-phy">PH</span> | Prototypes: Play Date and Exploration with Scratch |
-Nov 9 | <span class="topic-phy">PH</span> | Connecting Arduino and Processing |
-Nov 14 | <span class="topic-phy">PH</span> | Prototypes and Fabrication |
-Nov 16 | <span class="topic-phy">PH</span> | Work on Installation |
-Nov 21 | <span class="topic-phy">PH</span> | Computing Machines that Are Finite |
+Oct 24 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 1 |[A4 essay, code](assign/assign04.html) |  &mdash;
+Oct 26 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 2 |
+Oct 31 | <span class="topic-phy">PH</span> | Team Building - Rube Goldberg Device |
+Nov 2 | <span class="topic-phy">PH</span> | Prototypes: Play Date and Exploration with Scratch |
+Nov 7 | <span class="topic-phy">PH</span> | Connecting Arduino and Processing |
+Nov 9 | <span class="topic-phy">PH</span> | Prototypes and Fabrication |
+Nov 14 | <span class="topic-phy">PH</span> | Work on Installation |
+Nov 16 | <span class="topic-phy">PH</span> | Computing Machines that Are Finite |
+Nov 21 |  <span class="topic-phy">PH</span> | Work on Installation |
 Nov 23 | | Thanksgiving vacation, no class
 Nov 28 |  <span class="topic-phy">PH</span> | Work on Installation |
 Nov 30 | <span class="topic-phy">PH</span> | Work on Installation |

@@ -42,8 +42,8 @@ Oct 10 | <span class="topic-sci">PS</span> | [Lab 8: Outbreak](labs/lab08.html) 
 Oct 12 | <span class="topic-hum">DH</span> |  [Lab 9: N-grams](labs/lab09.html) | [Day 14](agenda/day14.html) | [A4 draft](assign/assign04.html) (Friday) | &mdash;
 Oct 17 | | Fall vacation, no class
 Oct 19 | <span class="topic-sc">SC</span> | Ready, set, registration! |
-Oct 24 |  | | &mdash; | [A4 essay, code](assign/assign04.html) | &mdash;
-Oct 26 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 1 | |  
+Oct 24 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 1 |[A4 essay, code](assign/assign04.html) |  
+Oct 26 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 1 |[A4 essay, code](assign/assign04.html) |  
 Oct 31 | <span class="topic-phy">PH</span> | Physical Computing with Scratch - Day 2 |
 Nov 2 | <span class="topic-phy">PH</span> | Team Building - Rube Goldberg Device |
 Nov 7 | <span class="topic-phy">PH</span> | Prototypes: Play Date and Exploration with Scratch |

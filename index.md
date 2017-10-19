@@ -19,6 +19,7 @@ Welcome to the FYS 100.132 home page!  All of the information about the course w
 
 ## News
 
+* **Oct 19** &mdash; The due date for the [Assignment 4](assign/assign04.html) final essay and code has been changed to **Thursday, Oct 26th**.
 * **Oct 6** &mdash; The [Schedule](schedule.html) has been updated, specifically the activities for Oct 10th and 12th.
 * **Oct 6** &mdash; The due date for the [Assignment 4](assign/assign04.html) essay draft has been moved back to **Friday, Oct 13th**.
 * **Sep 26** &mdash; [Assignment 4](assign/assign04.html) has been posted.  The first deliverable, an essay draft, is due **Tuesday, Oct 10**.

@@ -42,8 +42,8 @@ Oct 10 | <span class="topic-sci">PS</span> | [Lab 8: Outbreak](labs/lab08.html) 
 Oct 12 | <span class="topic-hum">DH</span> |  [Lab 9: N-grams](labs/lab09.html) | [Day 14](agenda/day14.html) | [A4 draft](assign/assign04.html) (Friday) | &mdash;
 Oct 17 | | Fall vacation, no class
 Oct 19 | <span class="topic-sc">SC</span> | Ready, set, registration! |
-Oct 24 | <span class="topic-phy">PH</span> | Lab 10: Physical Computing with Scratch - Day 1 |[Day 15](agenda/day15.html)|[A4 essay, code](assign/assign04.html) |  &mdash;
-Oct 26 | <span class="topic-phy">PH</span> | Ubiquitous and Pervasive Computing Discussion |[Day 16](agenda/day16.html)| &mdash; |[Weiser91](http://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf) and [Weiser93](http://www.cs.princeton.edu/courses/archive/spring99/cs598c/papers/p75-weiser.pdf)
+Oct 24 | <span class="topic-phy">PH</span> | Lab 10: Physical Computing with Scratch - Day 1 |[Day 15](agenda/day15.html)| &mdash;|  &mdash;
+Oct 26 | <span class="topic-phy">PH</span> | Ubiquitous and Pervasive Computing Discussion |[Day 16](agenda/day16.html)| [A4 essay, code](assign/assign04.html) |[Weiser91](http://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf) and [Weiser93](http://www.cs.princeton.edu/courses/archive/spring99/cs598c/papers/p75-weiser.pdf)
 Oct 31 | <span class="topic-phy">PH</span> | Lab 10: Physical Computing with Scratch - Day 2 |
 Nov 2 | <span class="topic-phy">PH</span> | Wearable Computing Discussion and Team Building | [Day 18](agenda/day18.html) | &mdash; | [Starner2001a](http://ieeexplore.ieee.org/document/946681/),  [Starner2001b](http://ieeexplore.ieee.org/document/946683/), [SignAloud News Release](http://www.washington.edu/news/2016/04/12/uw-undergraduate-team-wins-10000-lemelson-mit-student-prize-for-gloves-that-translate-sign-language/), and [SignAloud Gloves Demo](https://www.youtube.com/watch?v=l01sdzJHCCM)
 Nov 7 | <span class="topic-phy">PH</span> | Play Date and Exploration with Scratch |

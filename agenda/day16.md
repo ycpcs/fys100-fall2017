@@ -16,7 +16,17 @@ Note: The Weiser93 article is aimed a technical audience and I do not expect you
 
 <img class="parimg" alt="Get ready" src="img/getready.png">
 
-Read the articles and prepare for the discuss by completing the questions below: (TBD)
+Read the articles and prepare for the discuss by completing the questions below. Fill out your responses in a document called <b>UbicompDiscussion</b> and place the document in your Google Drive folder.
+
+Questions for <b>Weiser91</b>:
+* Weiser discusses that technologies become invisible when they enter the periphery. He provides writing and electric motors as two examples. What other examples can you determine? Why?
+* Weiser discusses the power of ubiquitous computing as making previously <i>inert</i> objects smart. What object in your daily life, if it became smart, would drastically improve your quality of life? Consider tedious things everyday or a large task that could be solved through "smart" methods.
+* Fundamentally, Weiser is proposing that ubiquitous technologies should bring people closer together and remove barriers between them. Do you believe the current state of technology brings people together or keeps them apart? Is the current technological landscape "as refereshing as taking a walk in the park"?
+
+Questions for <b>Weiser93</b>:
+* The article discusses computing at difference <i>scales</i> of tab, board, and pad. Do you recognize these devices in your daily life? If so, what are they and do their described uses (in the article) match what they are currently used for?
+* Privacy is identified as a key concern for ubiquitous computing. Given the proliferation of cell phones in everyday life, what concerns do you have about the privacy of your information? What actions do you take to ensure your privacy (if any)?
+
 
 
 

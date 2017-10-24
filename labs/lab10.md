@@ -160,7 +160,7 @@ There are many different sensors that we can cover and show you. However you hav
 * [Reed Switch](../resources/datasheets/ReedSwitch.pdf)
 * [RGB LED](../resources/datasheets/RGBLED.pdf)
 * [Servo Motor](../resources/datasheets/ServoMotor.pdf)
-* [Ultrasonic Range Finder](../resources/datasheets/UltraSonicRangeFinder.pdf)
+* [Ultrasonic Range Finder](../resources/datasheets/UltrasonicRangeFinder.pdf)
 * [Vibration Motor](../resources/datasheets/VibrationMotor.pdf)
 
 

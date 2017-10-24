@@ -113,7 +113,7 @@ Remove your servo from the circuit and wire it up based upon the diagram below. 
 
 After it is wired up your FSR circuit should look like below:
 
-<img src="../img/lab10/FSR_arduino.jpg" style="width: 250px;" align="center"/><img src="../img/lab10/FSR_breadboard.jpg" style="width: 250px;" align="center"/><img src="../img/lab10/FSR_breadboard-2.jpg" style="width: 250px;" align="center"/>
+<img src="../img/lab10/FSR_Arduino.jpg" style="width: 250px;" align="center"/><img src="../img/lab10/FSR_Breadboard.jpg" style="width: 250px;" align="center"/><img src="../img/lab10/FSR_Breadboard-2.jpg" style="width: 250px;" align="center"/>
 
 ### Reading Data from the Outside World
 The Analog Input pins on your Arduino read in data from the outside world. While they read analog values between 0V and 5V, these voltages are reported in the program as a value between 0 and 1023. The value of 0 corresponds to measuring 0V and 1023 to measuring 5V. 

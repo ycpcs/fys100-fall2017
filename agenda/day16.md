@@ -3,7 +3,7 @@ layout: default
 title: "Day 16 agenda"
 ---
 
-[comment:] In future semesters, possibly don't assigne Weiser93. 91 should be sufficient. Keep the questions the same.
+[comment:] <In future semesters, possibly don't assign Weiser93. 91 should be sufficient. Keep the questions the same.>
 
 # Agenda
 Day 16 is our discussion on Ubiquitous and Pervasive Computing. We will read two major articles that founded the field nearly 30 years ago. Scientists and academics often make many predictions about the future and not all of them come true. We will discuss to what extent Weiser's vision of pervasive computing has come to pass. 

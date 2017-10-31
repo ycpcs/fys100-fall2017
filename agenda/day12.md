@@ -5,11 +5,11 @@ title: "Day 12 agenda"
 
 # Agenda
 
-Day 13 is the discussion day for the music unit.
+Day 12 is the discussion day for the music unit.
 
 Please read/view/listen to the following:
 
-* [Iamus, classical music's computer composer, live from Málaga](http://www.theguardian.com/music/2012/jul/01/iamus-computer-composes-classical-music), Philip Ball, in The Guardian, July 1st, 2012 (newpaper article)
+* [Iamus, classical music's computer composer, live from Málaga](http://www.theguardian.com/music/2012/jul/01/iamus-computer-composes-classical-music), Philip Ball, in The Guardian, July 1st, 2012 (newspaper article)
 * [IAMUS / MELOMICS documentary](https://www.youtube.com/watch?v=ETGDbWvWCbM) (documentary film)
 * [0music](https://www.youtube.com/playlist?list=PLwUOBZdCYUCMjW1DKCQxqVJp3xmoh42e2) (album of computer-generated music): also available at the [0music Wikipedia page](https://en.wikipedia.org/wiki/0music) which has download links
 

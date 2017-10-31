@@ -19,7 +19,7 @@ Welcome to the FYS 100.132 home page!  All of the information about the course w
 
 ## News
 
-* **Oct 31** &mdash; <span style="font-family: 'Creepster', cursive;">[Assignment 5](assign/assign05.html) has been posted.  The first deliverable is an annotated bibliography, due Tuesday, Nov 7th.</span>
+* **Oct 31** &mdash; <span style="font-family: 'Creepster', cursive; font-size: 120%;">[Assignment 5](assign/assign05.html) has been posted.  The first deliverable is an annotated bibliography, due Tuesday, Nov 7th.</span>
 * **Oct 22** &mdash; Discussion questions have been added to the [Day 16](agenda/day16.html) agenda. Please complete these questions in preparation for class discussion.
 * **Oct 19** &mdash; The due date for the [Assignment 4](assign/assign04.html) final essay and code has been changed to **Thursday, Oct 26th**.
 * **Oct 6** &mdash; The [Schedule](schedule.html) has been updated, specifically the activities for Oct 10th and 12th.

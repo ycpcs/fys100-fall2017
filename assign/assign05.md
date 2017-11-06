@@ -79,7 +79,7 @@ Your essay should argue for one of the following positions:
 
 Cite specific evidence supporting your position.  I would encourage you to use the reading/documentary/album from the music discussion day.  In addition, you are required to find *at least one additional source* to support your position.
 
-Your essay must use [MLA format](https://www.library.cornell.edu/research/citation/mla) for sources.  Use citations as appropriate in your text when you refer to evidence in the sources you are using to support your argument.  Make sure that you have a list of works cited at the end of your essay.
+Your essay must use [MLA format](https://owl.english.purdue.edu/owl/resource/747/01/) for sources.  Use citations as appropriate in your text when you refer to evidence in the sources you are using to support your argument.  Make sure that you have a list of works cited at the end of your essay.
 
 Your essay should be *at least* three pages, not including the list of works cited.
 

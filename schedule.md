@@ -46,9 +46,9 @@ Oct 24 | <span class="topic-phy">PH</span> | [Lab 10: Physical Computing with Sc
 Oct 26 | <span class="topic-phy">PH</span> | Ubiquitous and Pervasive Computing Discussion |[Day 16](agenda/day16.html)| [A4 essay, code](assign/assign04.html) |[Weiser91](http://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf) and [Weiser93](http://www.cs.princeton.edu/courses/archive/spring99/cs598c/papers/p75-weiser.pdf)
 Oct 31 | <span class="topic-phy">PH</span> | Lab 10: Physical Computing with Scratch - Day 2 |
 Nov 2 | <span class="topic-phy">PH</span> | Wearable Computing Discussion and Team Building | [Day 18](agenda/day18.html) | &mdash; | [Starner2001a](http://ieeexplore.ieee.org/document/946681/),  [Starner2001b](http://ieeexplore.ieee.org/document/946683/), [SignAloud News Release](http://www.washington.edu/news/2016/04/12/uw-undergraduate-team-wins-10000-lemelson-mit-student-prize-for-gloves-that-translate-sign-language/), and [SignAloud Gloves Demo](https://www.youtube.com/watch?v=l01sdzJHCCM)
-Nov 7 | <span class="topic-phy">PH</span> | Play Date and Exploration with Scratch |
-Nov 9 | <span class="topic-phy">PH</span> | Lab 11: Connecting Arduino and Processing |
-Nov 14 | <span class="topic-phy">PH</span> | Prototyping Part #1 - Children's Toy |
+Nov 7 | <span class="topic-phy">PH</span> | [Lab 11: Designing Children's Toys with Scratch](labs/lab11.html) |
+Nov 9 | <span class="topic-phy">PH</span> | Lab 12: Connecting Arduino and Processing |
+Nov 14 | <span class="topic-phy">PH</span> | TBD |
 Nov 16 | <span class="topic-phy">PH</span> | Prototyping Part #2 - Initial Project |
 Nov 21 |  <span class="topic-phy">PH</span> | Lab 12: Computing Machines that are Finite |
 Nov 23 | | Thanksgiving vacation, no class

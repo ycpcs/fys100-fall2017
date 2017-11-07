@@ -80,12 +80,12 @@ Now that you know how to pass messages and save to variables you can begin worki
 
 For each <b>input</b> that you described in Part #2:
 * Read the "User-Friendly" datasheet to determine how to wire up the sensor and which Scratch blocks are used to work with the device.
-* In Section #3 of your worksheet, write a short (1-2 sentence) description of how the program will detect/measure the input.
+* In Section #3 of your worksheet, write a short (1-2 sentence) description of how the program will detect/measure the input. A good sentence would be <i>"I will use the pressure sensor conencted to analog 0. I will constantly read in the value and save it to a variable called 'pressure'"</i>
 * Create an individual program that uses either Messages or Variables to implement the program you just described. Create custom blocks that do small operations. Use variables to store information and messages to pass events between blocks.
 
 For each <b>output</b> that you described in Part #2
 * Read the "User-Friendly" datasheet to determine how to wire up the actuator and which Scratch blocks are used to work with the device.
-* In Section #3 of your worksheet, write a short (1-2 sentence) description of how the program will respond based upon some variables or messages.
+* In Section #3 of your worksheet, write a short (1-2 sentence) description of how the program will respond based upon some variables or messages. A good setence would be <i>"The program will constantly read the pressure variable. The higher the variable, the brighter the LED and vice versa."
 * Create an individual program that responds to either Messages or Variables to implement the program you just described. Create custom blocks that do small operations.
 
 ## Part 5 - Show Off Your Work!

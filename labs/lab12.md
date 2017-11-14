@@ -5,8 +5,8 @@ title: "Lab 12: Connecting Processing and Arduino"
 
 # Learning goals
 
-* Learn to write simple Processing programs that interface with your Arduin
-* Explore connections between physica input/out and graphical expressions
+* Learn to write simple Processing programs that interface with your Arduino
+* Explore connections between physical input/out and graphical expressions
 
 # What to Do
 

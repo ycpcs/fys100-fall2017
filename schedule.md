@@ -48,7 +48,7 @@ Oct 31 | <span class="topic-phy">PH</span> | Lab 10: Physical Computing with Scr
 Nov 2 | <span class="topic-phy">PH</span> | Wearable Computing Discussion and Team Building | [Day 18](agenda/day18.html) | &mdash; | [Starner2001a](http://ieeexplore.ieee.org/document/946681/),  [Starner2001b](http://ieeexplore.ieee.org/document/946683/), [SignAloud News Release](http://www.washington.edu/news/2016/04/12/uw-undergraduate-team-wins-10000-lemelson-mit-student-prize-for-gloves-that-translate-sign-language/), and [SignAloud Gloves Demo](https://www.youtube.com/watch?v=l01sdzJHCCM)
 Nov 7 | <span class="topic-phy">PH</span> | [Lab 11: Designing Children's Toys with Scratch - Day 1](labs/lab11.html) |
 Nov 9 | <span class="topic-phy">PH</span> | [Lab 11: Designing Children's Toys with Scratch - Day 2](labs/lab11.html) |
-Nov 14 | <span class="topic-phy">PH</span> | Lab 13: Connecting Arduino and Processing |
+Nov 14 | <span class="topic-phy">PH</span> | [Lab 12: Connecting Arduino and Processing](labs/lab12.html) |
 Nov 16 | <span class="topic-phy">PH</span> | Lab 14: Initial Project Prototyping |
 Nov 21 |  <span class="topic-phy">PH</span> | Lab 15: Computing Machines that are Finite |
 Nov 23 | | Thanksgiving vacation, no class

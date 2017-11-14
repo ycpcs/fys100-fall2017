@@ -27,7 +27,7 @@ To install the Arduino library, launch Processing and go to <b>Sketch->Import Li
 
 Search for the Arduino library and install it.
 
-> ![Install Arduino](../img/lab12/install-arduino-lib-gui.png)
+> <img alt="Install Processing Sketches" style="width: 650px;" src="../img/lab12/install-arduino-lib-gui.png">
 
 ### Installing Firmata on Arduino
 Once you have installed both libraries you need to install a new firmware on your Arduino so it can talk to Processing. Launch Arduino from your desktop. Once in Arduino, load the Firmata software by going to <b>File->Examples->Firmata->Standard Firmata</b>. This should bring up the StandardFirmata firmware program. 

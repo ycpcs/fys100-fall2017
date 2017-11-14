@@ -18,12 +18,16 @@ To enable Processing to talk with your Arduino you will need a couple things: (1
 
 ### Loading New Processing Libraries and Sketches
 
-Download the Arduino processing library ([here](./lab12/arduino.zip)). Unzip the archive and place it in your <b>libraries</b> folder within you Processing Sketchbook.
-
-> <img alt="Install Arduino Lib in Processing" style="width: 600px;" src="../img/lab12/install-arduino-lib.png">
-
 To install the sketches for today, open the "lab-12Sketches.zip" ([here](./lab12/lab12-sketches.zip)) folder and drag all of the contents into your <b>Processing sketchbook</b>.
-> <img alt="Install Processing Sketches" style="width: 600px;" src="../img/lab12/install-processing-sketches.png">
+> <img alt="Install Processing Sketches" style="width: 700px;" src="../img/lab12/install-processing-sketches.png">
+
+To install the Arduino library, launch Processing and go to <b>Sketch->Import Library->Add Library</b>. This interface will allow you to download and install new libraries.
+
+> ![Search for Arduino](../img/lab12/add-library.png)
+
+Search for the Arduino library and install it.
+
+> ![Install Arduino](../img/lab12/install-arduino-lib-gui.png)
 
 ### Installing Firmata on Arduino
 Once you have installed both libraries you need to install a new firmware on your Arduino so it can talk to Processing. Launch Arduino from your desktop. Once in Arduino, load the Firmata software by going to <b>File->Examples->Firmata->Standard Firmata</b>. This should bring up the StandardFirmata firmware program. 
@@ -40,7 +44,7 @@ Your program should now upload to the Arduino. If successful, you will see the m
 > <img alt="Upload Message" style="width: 600px;" src="../img/lab12/arduino-upload.png">
 
 ## Part 1 - Connecting to Your Arduino
-When using the Arduino library in Processing you can directly communicate with the Arduino by turning on/off pins and requesting different values. However, before you perform these activities you must first establish a connection to the Arduino.  
+When using the Arduino library in Processing you can directly communicate with the Arduino by turning on/off pins and requesting different values. However, before you perform these activities you must first establish a connection to the Arduino.
 
 Load up sketch “Blink LED” from your Processing Sketchbook. Examine the setup() loop of the sketch as shown below:
 

@@ -13,7 +13,7 @@ title: "Assignment 5: Computers and Creativity"
 
 **Peer evaluations**: due Friday, Dec 1st by 11:59 PM
 
-**Final essay**: due Friday, Dec 9th by 11:59 PM
+**Final essay**: due Friday, Dec 8th by 11:59 PM
 
 # Learning goals
 

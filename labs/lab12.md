@@ -19,11 +19,11 @@ To enable Processing to talk with your Arduino you will need a couple things: (1
 ### Loading New Processing Libraries and Sketches
 
 To install the sketches for today, open the "lab-12Sketches.zip" ([here](./lab12/lab12-sketches.zip)) folder and drag all of the contents into your <b>Processing sketchbook</b>.
-> <img alt="Install Processing Sketches" style="width: 700px;" src="../img/lab12/install-processing-sketches.png">
+> <img alt="Install Processing Sketches" style="width: 750px;" src="../img/lab12/install-processing-sketches.png">
 
 To install the Arduino library, launch Processing and go to <b>Sketch->Import Library->Add Library</b>. This interface will allow you to download and install new libraries.
 
-> ![Search for Arduino](../img/lab12/add-library.png)
+> <img alt="Install Processing Sketches" style="width: 650px;" src="../img/lab12/add-library.png">
 
 Search for the Arduino library and install it.
 

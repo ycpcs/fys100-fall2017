@@ -180,6 +180,6 @@ You now know how to connect Processing to your Arduino and vice versa. These int
 
 
 # Reinstalling Scratch4Arduino
-After today's lab you may want to re-install Scratch on your Arduino. To do so you will need to download the S4a firmware on your Arduino. To do so, browse to the following site [here](https://raw.githubusercontent.com/YorkCpE/S4A-Workshop/master/S4AFirmware16/S4AFirmware16.ino). Open Arduino then copy and paste the website text into Arduino. Use the upload button to re-program your Arduino as in Step 0.
+After today's lab you may want to re-install Scratch on your Arduino. To do so you will need to download the S4a firmware on your Arduino. To do so, browse to the following site [here](https://raw.githubusercontent.com/YorkCpE/S4A-Workshop/master/S4AFirmware16/S4AFirmware16.ino). Open Arduino then copy and paste the website text into Arduino overwritting any existing text. Use the upload button to re-program your Arduino as in Step 0.
 
 

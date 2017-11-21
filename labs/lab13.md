@@ -128,4 +128,4 @@ Each state function returns the next system state.  Note that when a function de
 # A Full Example Sketch
 Here is the complete sketch:
 
-> [InMySpace.pde](https://github.com/ycpcs/fys100-fall2016/blob/gh-pages/labs/InMySpace.pde)
+> [InMySpace.pde](https://github.com/ycpcs/fys100-fall2017/blob/gh-pages/labs/InMySpace.pde)

@@ -44,13 +44,13 @@ Oct 17 | | Fall vacation, no class
 Oct 19 | <span class="topic-sc">SC</span> | Ready, set, registration! |
 Oct 24 | <span class="topic-phy">PH</span> | [Lab 10: Physical Computing with Scratch - Day 1](labs/lab10.html) |[Day 15](agenda/day15.html)| &mdash;|  &mdash;
 Oct 26 | <span class="topic-phy">PH</span> | Ubiquitous and Pervasive Computing Discussion |[Day 16](agenda/day16.html)| [A4 essay, code](assign/assign04.html) |[Weiser91](http://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf) and [Weiser93](http://www.cs.princeton.edu/courses/archive/spring99/cs598c/papers/p75-weiser.pdf)
-Oct 31 | <span class="topic-phy">PH</span> | Lab 10: Physical Computing with Scratch - Day 2 |
+Oct 31 | <span class="topic-phy">PH</span> | [Lab 10: Physical Computing with Scratch - Day 2](labs/lab10.html) |
 Nov 2 | <span class="topic-phy">PH</span> | Wearable Computing Discussion and Team Building | [Day 18](agenda/day18.html) | &mdash; | [Starner2001a](http://ieeexplore.ieee.org/document/946681/),  [Starner2001b](http://ieeexplore.ieee.org/document/946683/), [SignAloud News Release](http://www.washington.edu/news/2016/04/12/uw-undergraduate-team-wins-10000-lemelson-mit-student-prize-for-gloves-that-translate-sign-language/), and [SignAloud Gloves Demo](https://www.youtube.com/watch?v=l01sdzJHCCM)
 Nov 7 | <span class="topic-phy">PH</span> | [Lab 11: Designing Children's Toys with Scratch - Day 1](labs/lab11.html) | &mdash; | [A5 bibliography](assign/assign05.html)
 Nov 9 | <span class="topic-phy">PH</span> | [Lab 11: Designing Children's Toys with Scratch - Day 2](labs/lab11.html) |
 Nov 14 | <span class="topic-phy">PH</span> | [Lab 12: Connecting Arduino and Processing](labs/lab12.html) | &mdash; | [A5 outline](assign/assign05.html)
-Nov 16 | <span class="topic-phy">PH</span> | Lab 14: Initial Project Prototyping |
-Nov 21 |  <span class="topic-phy">PH</span> | Lab 15: Computing Machines that are Finite | 
+Nov 16 | <span class="topic-phy">PH</span> | Initial Project Prototyping |
+Nov 21 |  <span class="topic-phy">PH</span> | [Lab 13: Computing Machines that are Finite](labs/lab13.html) | 
 Nov 23 | | Thanksgiving vacation, no class
 Nov 28 |  <span class="topic-phy">PH</span> | Work on Installation | &mdash; | [A5 draft](assign/assign05.html)
 Nov 30 | <span class="topic-phy">PH</span> | Work on Installation | &mdash; | [A5 peer evals](assign/assign05.html) (by Friday)

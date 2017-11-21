@@ -82,7 +82,7 @@ switch (currentState) {
 currentState = nextState;
 {% endhighlight %}
 
-In each case statements is an state function for each state. For example, the state function for COMFORTABLE is <i>exec_COMFORTABLE()</i> We will implement these functions in the next stage. However, they're purpose is to create any outputs that are required in the state and determine what the next state of the machine should be. Only one state function will be called and that one will be update `nextState`. The final line of the State Table updates `currentState` and forces the machine to repeat.
+In each case statements is an state function for each state. For example, the state function for COMFORTABLE is <i>exec_COMFORTABLE()</i> We will implement these functions in the next stage. However, their purpose is to create any outputs that are required in the state and determine what the next state of the machine should be. Only one state function will be called and that one will be update `nextState`. The final line of the State Table updates `currentState` and forces the machine to repeat.
 
 ## Part 3 - Implementing Your State Function
 As we saw in the State Table in Part 2, each state is associated with a function.  A state's function has two responsibilities:

@@ -52,7 +52,7 @@ Nov 14 | <span class="topic-phy">PH</span> | [Lab 12: Connecting Arduino and Pro
 Nov 16 | <span class="topic-phy">PH</span> | Initial Project Prototyping |
 Nov 21 |  <span class="topic-phy">PH</span> | [Lab 13: Computing Machines that are Finite](labs/lab13.html) | 
 Nov 23 | | Thanksgiving vacation, no class
-Nov 28 |  <span class="topic-phy">PH</span> | Presentation by Boston Artist, Ross Mill | &mdash; | [A5 draft](assign/assign05.html)
+Nov 28 |  <span class="topic-phy">PH</span> | Presentation by Boston Artist, Ross Miller | &mdash; | [A5 draft](assign/assign05.html)
 Nov 30 | <span class="topic-phy">PH</span> | Work on Installation | &mdash; | [A5 peer evals](assign/assign05.html) (by Friday)
 Dec 5 | <span class="topic-phy">PH</span> | Work on Installation |
 Dec 7 | <span class="topic-phy">PH</span> | Work on Installation | &mdash; | [A5 essay](assign/assign05.html) (by Friday)

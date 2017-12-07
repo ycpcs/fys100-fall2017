@@ -18,7 +18,7 @@ Welcome to the FYS 100.132 home page!  All of the information about the course w
 * [Events Calendar](media/EventsCalendar.pdf) &mdash; First-year experience events for Fall 2017
 
 ## News
-
+* **Dec 7** &mdash; Deliverables added for [Assignment 6](assign/assign06.html). All items due by **Dec 16th**
 * **Oct 31** &mdash; <span style="font-family: 'Creepster', cursive; font-size: 120%;">[Assignment 5](assign/assign05.html) has been posted.  The first deliverable is an annotated bibliography, due Tuesday, Nov 7th. Also, questions have been posted for the [Day 18](agenda/day18.html) discussion on wearable computing.</span>
 * **Oct 22** &mdash; Discussion questions have been added to the [Day 16](agenda/day16.html) agenda. Please complete these questions in preparation for class discussion.
 * **Oct 19** &mdash; The due date for the [Assignment 4](assign/assign04.html) final essay and code has been changed to **Thursday, Oct 26th**.

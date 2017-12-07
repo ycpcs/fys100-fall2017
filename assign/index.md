@@ -17,3 +17,4 @@ Assignment | Type | Due
 [Assignment 3: Visual Art](assign03.html) | Individual project | Essay outline due Friday, Sept 15th<br>Essay draft due Thurs, Sept 21st<br>Final essay and code due Thurs, October 5th
 [Assignment 4: Music Composition](assign04.html) | Individual project | Essay draft due Friday, Oct 13th<br>Final essay and code due Thurs, Oct 26th
 [Assignment 5: Computers and Creativity](assign05.html) | Writing | See assignment description
+[Assignment 6: Project Demo and Reflection](assign06.html)| Group and Individual | See assignment description

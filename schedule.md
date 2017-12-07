@@ -56,8 +56,9 @@ Nov 28 |  <span class="topic-phy">PH</span> | Presentation by Boston Artist, Ros
 Nov 30 | <span class="topic-phy">PH</span> | Work on Installation | &mdash; | [A5 peer evals](assign/assign05.html) (by Friday)
 Dec 5 | <span class="topic-phy">PH</span> | Work on Installation |
 Dec 7 | <span class="topic-phy">PH</span> | Work on Installation | &mdash; | [A5 essay](assign/assign05.html) (by Friday)
-Dec 12 | <span class="topic-phy">PH</span> | Work on Installation
-Dec 16 | <span class="topic-phy">PH</span> | <b>Final Presentation @ 10:15AM</b>
+Dec 12 | <span class="topic-phy">PH</span> | Initial Demo | &mdash; | [A6 Demo](assign/assign06.html)
+Dec 16 | <span class="topic-phy">PH</span> | <b>Final Presentation @ 10:15AM</b> | &mdash; | [A6 Presentation](assign/assign06.html)
+Dec 16 | <span class="topic-phy">PH</span> | Project Reflection (may be submitted before) | &mdash; | [A6 Reflection](assign/assign06.html)
 
 Readings/Videos/Media:
 

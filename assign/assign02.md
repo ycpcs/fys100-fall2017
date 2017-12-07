@@ -36,9 +36,6 @@ This (example) installation will be mounted in a box attached to the wall.  The 
 This section lists some of the possible sensors and actuators you can use in your project.  Note that this list is by no means exhaustive: you can look at the [Adafruit](https://www.adafruit.com) and [SparkFun](https://www.sparkfun.com) websites for more ideas.
 
 Sensor | Type 
----------- | ---- 
-<<<<<<< HEAD
-=======
 [Accelerometer](../resources/datasheets/Accelerometer.pdf) | Used to determine motion.
 [Force sensitive resistor](../resources/datasheets/ForceSensitiveResistor.pdf) | Senses the force applied to a surface.
 [Motion detector](../resources/datasheets/MotionDetector.pdf) | Detects motion in the space in front of the sensor.
@@ -49,7 +46,6 @@ Sensor | Type
 [Slider](../resources/datasheets/Sliders.pdf) | A strip that detects touch.
 [Ultrasonic range finder](../resources/datasheets/UltrasonicRangeFinder.pdf) | Detects the distance of objects from the sensor.
 [Vibration motor](../resources/datasheets/VibrationMotor.pdf) | Vibrates (like a cell phone in vibrate mode.)
->>>>>>> refs/remotes/origin/gh-pages
 
 
 # Requirements
